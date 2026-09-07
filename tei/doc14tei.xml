@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>La scuola dei padroni</title>
+        <author>
+          <orgName>Movimento Studentesco Bologna</orgName>
+        </author>
+        <respStmt>
+          <resp>Trascrizione e codifica TEI a cura di</resp>
+          <name xml:id="RR">Rachele Rossini</name>
+        </respStmt>
+      </titleStmt>
+
+      <publicationStmt>
+        <publisher>Rachele Rossini</publisher>
+        <pubPlace>Bologna</pubPlace>
+        <date when="2026">2026</date>
+      </publicationStmt>
+
+      <sourceDesc>
+        <bibl>
+          <title>La scuola dei padroni</title>
+          <idno type="catalog_number">DOC_014_la_scuola_dei_padroni.jpg</idno>
+          <publisher>Centro Stampa Mov. Stud.</publisher>
+          <date when="1968">1968</date>
+          <note type="source">Fondazione Gramsci Emilia-Romagna</note>
+          <note type="medium">Manifesto</note>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+
+    <profileDesc>
+      <langUsage>
+        <language ident="it">Italiano</language>
+      </langUsage>
+      <textClass>
+        <keywords>
+          <term ref="https://thes.bncf.firenze.sbn.it/termine.php?id=16240">Movimento studentesco</term>
+          <term ref="https://thes.bncf.firenze.sbn.it/termine.php?id=5071">Scuola</term>
+        </keywords>
+      </textClass>
+      <settingDesc>
+        <place ref="https://www.geonames.org/3181928/bologna.html">
+          <placeName>Bologna</placeName>
+        </place>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+
+  <text>
+    <body>
+      <pb facs="DOC_014_la_scuola_dei_padroni.jpg" n="1"/>
+
+      <div type="flyer" xml:lang="it">
+
+        <figure rendition="#illustration">
+          <figDesc>
+            Illustrazione in silografia nera a forte contrasto. Raffigura in primo piano la silhouette bianca
+            di uno studente di spalle con cappello accademico/tocco e libri in mano, sovrastato dall'incombente ombra nera
+            di un poliziotto con elmetto e manganello pronto a colpire.
+          </figDesc>
+        </figure>
+
+        <head rend="black bold uppercase" scope="major">
+          <lb/>LA <orgName type="institution">SCUOLA</orgName> DEI <rs type="social_group">PADRONI</rs>
+        </head>
+
+        <p rend="black bold uppercase" rendition="#imprint" style="writing-mode: vertical-rl;">
+          <lb/><orgName type="publisher">CENTRO STAMPA MOV STUD</orgName>
+        </p>
+
+      </div>
+    </body>
+  </text>
+</TEI>

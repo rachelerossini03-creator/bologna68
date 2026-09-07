@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>La salute pubblica come problema sociale. La lotta contro l'istituzione psichiatrica autoritaria</title>
+        <author>
+          <orgName type="institution">Provincia di Bologna</orgName>
+          <orgName type="association">Associazione per la lotta contro le malattie mentali</orgName>
+          <orgName type="institution">Amministrazione comunale di Casalecchio di Reno</orgName>
+          <orgName type="trade_union">C.G.I.L. DI CASALECCHIO DI RENO</orgName>
+          <orgName type="trade_union">C.I.S.L. DI CASALECCHIO DI RENO</orgName>
+        </author>
+        <respStmt>
+          <resp>Trascrizione e codifica TEI a cura di</resp>
+          <name xml:id="RR">Rachele Rossini</name>
+        </respStmt>
+      </titleStmt>
+
+      <publicationStmt>
+        <publisher>Rachele Rossini</publisher>
+        <pubPlace>Bologna</pubPlace>
+        <date when="2026">2026</date>
+      </publicationStmt>
+
+      <sourceDesc>
+        <bibl>
+          <title>La salute pubblica come problema sociale. La lotta contro l'istituzione psichiatrica autoritaria</title>
+          <idno type="catalog_number">DOC_013_la_salute_pubblica_come_problema_sociale.jpg</idno>
+          <date when="1969-03-25">1969-03-25</date>
+          <note type="source">Fondazione Gramsci Emilia-Romagna</note>
+          <note type="medium">Manifesto</note>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+
+    <profileDesc>
+      <langUsage>
+        <language ident="it">Italiano</language>
+      </langUsage>
+      <textClass>
+        <keywords>
+          <term>Salute pubblica</term>
+          <term>Problema sociale</term>
+          <term>Istituzione psichiatrica autoritaria</term>
+        </keywords>
+      </textClass>
+      <settingDesc>
+        <place>
+          <placeName ref="https://viaf.org/en/viaf/144362597">Casalecchio di Reno (BO)</placeName>
+        </place>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+
+  <text>
+    <body>
+      <pb facs="DOC_013_la_salute_pubblica_come_problema_sociale.jpg" n="1"/>
+
+      <div type="flyer" xml:lang="it">
+
+        <head rend="blue bold uppercase" scope="minor">
+          <lb/><orgName type="institution" ref="https://viaf.org/en/viaf/312794095">PROVINCIA DI BOLOGNA</orgName>
+          <lb/><orgName type="association">ASSOCIAZIONE PER LA LOTTA CONTRO LE MALATTIE MENTALI</orgName>
+          <lb/><orgName type="institution">AMMINISTRAZIONE COMUNALE DI CASALECCHIO DI RENO</orgName>
+          <lb/><orgName type="trade_union">C.G.I.L. DI CASALECCHIO DI RENO</orgName>
+          <lb/><orgName type="trade_union">C.I.S.L. DI CASALECCHIO DI RENO</orgName>
+        </head>
+
+        <p rend="blue italic bold">
+          <lb/>La cittadinanza è invitata a partecipare
+          <lb/>al dibattito sul tema:
+        </p>
+
+        <head rend="blue bold" scope="major">
+          <lb/><title type="debate">La salute pubblica come pro-
+          <lb/>blema sociale.
+          <lb/>La lotta contro l'istituzione
+          <lb/>psichiatrica autoritaria.</title>
+        </head>
+
+        <p rend="blue italic bold">
+          <lb/><date when="1969-03-25">Martedi 25 Marzo 1969</date> - ore <time when="21:00">21</time>
+          <lb/><placeName>Sala Parrocchiale (via Marconi, 39)</placeName>
+          <lb/><placeName ref="https://viaf.org/en/viaf/144362597">Casalecchio di Reno</placeName>
+        </p>
+
+        <p rend="blue bold">
+          <lb/>Introdurranno:
+        </p>
+
+        <p rend="blue">
+          <lb/><persName><forename>CORSO</forename> <surname>BACCHILEGA</surname></persName>
+          <lb/><roleName type="office" style="font-size: small;">Assessore alla Sicurezza Sociale dell'Amministrazione provinciale di Bologna</roleName>
+        </p>
+
+        <p rend="blue">
+          <lb/>il <persName><roleName type="honorific">Dott.</roleName> <forename>AUGUSTO</forename> <surname>PALMONARI</surname></persName>
+          <lb/><roleName type="office" style="font-size: small;">Assistente all'Istituto di Psicologia dell'Università di Bologna</roleName>
+        </p>
+
+        <p rend="blue">
+          <lb/>lo <persName><roleName type="title">Studente</roleName> <forename>AMEDEO</forename> <surname>CICOTTI</surname></persName>
+          <lb/><roleName type="office" style="font-size: small;">dell'Associazione per la lotta contro le malattie mentali</roleName>
+        </p>
+
+        <p rend="blue" rendition="#imprint" style="font-size: x-small;">
+          <lb/><orgName type="printer">Artigrafiche TAMARI - Bologna</orgName>
+        </p>
+
+      </div>
+    </body>
+  </text>
+</TEI>

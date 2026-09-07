@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bologna '68 — Catalogo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   <header>
+    <div class="logo">
+        <a href="index.html">Bologna '68</a>
+    </div>
+    <nav class="topnav" id="myTopnav">
+        <ul>
+            <li><a href="index.html" >Home</a></li>
+            <li><a href="catalogo.html" class="active">Catalogo</a></li>
+            <li><a href="spazi.html">Gli spazi</a></li>
+            <li><a href="tempi.html">I tempi</a></li>
+            <li><a href="dati.html">Dati</a></li>
+            <li class="icon-item">
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+ <section class="catalog-intro">
+        <h1>Catalogo digitale</h1>
+        <p>Esplora e filtra la collezione di fotografie, volantini e manifesti d'archivio.</p>
+    </section>
+
+    <section class="filter-section">
+        <h2 class="filters-label">Filtri</h2>
+
+        <input type="text" id="searchInput" placeholder="Cerca per parola chiave o titolo...">
+
+       <div class="filter-grid">
+    <select id="filterType">
+        <option value="">Tutte le tipologie</option>
+        <option value="fotografia">Fotografia</option>
+        <option value="manifesto">Manifesto</option>
+        <option value="volantino">Volantino</option>
+    </select>
+
+    <select id="filterDate">
+        <option value="">Tutte le date</option>
+        <option value="1967">1967</option>
+        <option value="1968">1968</option>
+        <option value="1969">1969</option>
+    </select>
+
+    <select id="filterAuthor">
+        <option value="">Tutti gli autori</option>
+        <option value="Enrico Pasquali">Enrico Pasquali</option>
+        <option value="Luciano Nicolini">Luciano Nicolini</option>
+        <option value="Luciano Nadalini">Luciano Nadalini</option>
+        <option value="Movimento Studentesco Bologna">Movimento Studentesco Bologna</option>
+        <option value="Comitato Nazionale per la pace in Biafra">Comitato Nazionale per la pace in Biafra</option>
+        <option value="Provincia di Bologna">Provincia di Bologna e altri enti</option>
+        <option value="Partito comunista italiano: Federazione di Bologna">Partito comunista italiano: Federazione di Bologna</option>
+        <option value="Un gruppo di studenti medi">Un gruppo di studenti medi</option>
+        <option value="Comitato di base studenti-operai dell'OMNIA">Comitato di base studenti-operai dell'OMNIA</option>
+        <option value="Studenti dell'ITIS Odone Belluzzi">Studenti dell'ITIS Odone Belluzzi</option>
+    </select>
+
+    <select id="filterArchive">
+        <option value="">Tutti gli archivi</option>
+        <option value="Archivio UFO">Archivio U.F.O</option>
+        <option value="Archivio Storico dell'Università di Bologna (Raccolta Luciano Nicolini)">Archivio Storico dell'Università di Bologna</option>
+        <option value="Archivio storico della nuova sinistra &quot;Marco Pezzi&quot;">Archivio storico della nuova sinistra "Marco Pezzi"</option>
+        <option value="Fondazione Gramsci Emilia-Romagna">Fondazione Gramsci Emilia-Romagna</option>
+    
+    </select>
+
+    <select id="filterTheme">
+        <option value="">Tutti i temi</option>
+        <option value="Movimento Studentesco">Movimento Studentesco</option>
+        <option value="Lotta Operaia">Lotta Operaia</option>
+        <option value="Pacifismo">Pacifismo</option>
+        <option value="Internazionalismo">Internazionalismo</option>
+        <option value="Psichiatria">Sanità e psichiatria</option>
+    </select>
+
+    <select id="sortOrder">
+        <option value="">Ordina</option>
+        <option value="oldest">Dal più vecchio al più recente</option>
+        <option value="newest">Dal più recente al più vecchio</option>
+    </select>
+</div>
+    </section>
+    <section class="grid-container" id="catalogGrid">
+
+<div class="card" data-title="La camiceria Pancaldi occupata dalle lavoratrici" data-type="fotografia" data-year="1968" data-date="1968-06-01" data-author="Enrico Pasquali" data-archive="Archivio UFO" data-theme="Lotta Operaia">
+    <div class="card-image-wrapper">
+        <img src="immagini/DOC_001_la_camiceria_pancaldi.jpg" alt="La camiceria Pancaldi occupata dalle lavoratrici">
+        <div class="card-overlay">
+            <h3>La camiceria Pancaldi occupata dalle lavoratrici</h3>
+            <a href="sessantotto.xml" class="btn-overlay">Vedi scheda</a>
+        </div>
+    </div>
+</div>
+
+<div class="card" data-title="Assemblea di studenti in via Zamboni" data-type="fotografia" data-year="1968" data-date="1968-03-07" data-author="Luciano Nicolini" data-archive="Archivio Storico dell'Università di Bologna (Raccolta Luciano Nicolini)" data-theme="Movimento Studentesco">
+    <div class="card-image-wrapper">
+        <img src="immagini/DOC_002_assemblea_studenti_via_zamboni.jpg" alt="Assemblea di studenti in via Zamboni">
+        <div class="card-overlay">
+            <h3>Assemblea di studenti in via Zamboni</h3>
+            <a href="sessantotto.xml" class="btn-overlay">Vedi scheda</a>
+        </div>
+    </div>
+</div>
+
+<div class="card" data-title="La marcia per la pace in Vietnam di Danilo Dolci da Modena a Bologna" data-type="fotografia" data-year="1967" data-date="1967-11-10" data-author="Luciano Nadalini" data-archive="Archivio UFO" data-theme="Pacifismo">
+    <div class="card-image-wrapper">
+        <img src="immagini/DOC_003_marcia_per_la_pace_in_vietnam.jpg" alt="La marcia per la pace in Vietnam">
+        <div class="card-overlay">
+            <h3>La marcia per la pace in Vietnam</h3>
+            <a href="sessantotto.xml" class="btn-overlay">Vedi scheda</a>
+        </div>
+    </div>
+</div>
+
+<div class="card" data-title="L'occupazione dell'Istituto di fisica A. Righi" data-type="fotografia" data-year="1968" data-date="1968-02-01" data-author="Luciano Nicolini" data-archive="Archivio Storico dell'Università di Bologna (Raccolta Luciano Nicolini)" data-theme="Movimento Studentesco">
+    <div class="card-image-wrapper">
+        <img src="immagini/DOC_004_occupazione_fisica_a_righi_1_febbraio.jpg" alt="L'occupazione dell'Istituto di fisica A. Righi">
+        <div class="card-overlay">
+            <h3>L'occupazione dell'Istituto di fisica "A. Righi"</h3>
+            <a href="doc_004.html" class="btn-overlay">Vedi scheda</a>
+        </div>
+    </div>
+</div>
+
+<div class="card" data-title="Manifestazione operai-studenti" data-type="fotografia" data-year="1968" data-date="1968-04-28" data-author="Luciano Nicolini" data-archive="Archivio Storico dell'Università di Bologna (Raccolta Luciano Nicolini)" data-theme="Lotta Operaia">
+    <div class="card-image-wrapper">
+        <img src="immagini/DOC_005_manifestazione_operai_studenti.jpg" alt="Manifestazione operai-studenti">
+        <div class="card-overlay">
+            <h3>Manifestazione operai-studenti</h3>
+            <a href="sessantotto.xml" class="btn-overlay">Vedi scheda</a>
+        </div>
+    </div>
+</div>
+
+<div class="card" data-title="Manifestazione contro l'attentato a Rudi Dutschke" data-type="fotografia" data-year="1968" data-date="1968-04-12" data-author="Luciano Nicolini" data-archive="Archivio Storico dell'Università di Bologna (Raccolta Luciano Nicolini)" data-theme="Movimento Studentesco">
+    <div class="card-image-wrapper">
+        <img src="immagini/DOC_006_manifestazione_contro_arresto_dutschke.jpg" alt="Manifestazione contro l'attentato a Rudi Dutschke">
+        <div class="card-overlay">
+            <h3>Manifestazione contro l'attentato a Rudi Dutschke</h3>
+            <a href="sessantotto.xml" class="btn-overlay">Vedi scheda</a>
+        </div>
+    </div>
+</div>
+
+<div class="card" data-title="Sartre parla all'Università di Bologna" data-type="fotografia" data-year="1968" data-date="1968-07-23" data-author="Luciano Nicolini" data-archive="Archivio Storico dell'Università di Bologna (Raccolta Luciano Nicolini)" data-theme="Psichiatria">
+    <div class="card-image-wrapper">
+        <img src="immagini/DOC_007_Sartre_parla_agli_studenti_psicologia.jpg">
+        <div class="card-overlay">
+            <h3>Sartre parla all'Università di Bologna</h3>
+            <a href="sessantotto.xml" class="btn-overlay">Vedi scheda</a>
+        </div>
+    </div>
+</div>
+
+<div class="card" data-title="Intervento della polizia al sit-in davanti alla Johns Hopkins" data-type="fotografia" data-year="1967" data-date="1967-05-21" data-author="Luciano Nicolini" data-archive="Archivio Storico dell'Università di Bologna (Raccolta Luciano Nicolini)" data-theme="Pacifismo">
+    <div class="card-image-wrapper">
+        <img src="immagini/DOC_008_intervento_polizia_johns_hopkins.jpg" alt="Intervento della polizia al sit-in davanti alla Johns Hopkins">
+        <div class="card-overlay">
+            <h3>Intervento della polizia al sit-in davanti alla Johns Hopkins</h3>
+            <a href="sessantotto.xml" class="btn-overlay">Vedi scheda</a>
+        </div>
+    </div>
+</div>
+
+<div class="card" data-title="Il Resto del Carlino e la RAI TV hanno paura del Movimento Studentesco" data-type="manifesto" data-year="1968" data-date="1968-01-01" data-author="Movimento Studentesco Bologna" data-archive="Archivio storico della nuova sinistra &quot;Marco Pezzi&quot;" data-theme="Movimento Studentesco">
+    <div class="card-image-wrapper">
+        <img src="immagini/DOC_009_il_resto_del_carlino_e_la_rai_tv_hanno_paura.jpg" alt="Il Resto del Carlino e la RAI TV hanno paura del Movimento Studentesco">
+        <div class="card-overlay">
+            <h3>Il Resto del Carlino e la RAI TV hanno paura</h3>
+            <a href="tei/doc9tei.xml" class="btn-overlay">Vedi scheda</a>
+        </div>
+    </div>
+</div>
+
+<div class="card" data-title="Non ci sono né mussulmani né ebrei" data-type="manifesto" data-year="1968" data-date="1968-06-01" data-author="Movimento Studentesco Bologna" data-archive="Archivio storico della nuova sinistra &quot;Marco Pezzi&quot;" data-theme="Internazionalismo">
+    <div class="card-image-wrapper">
+        <img src="immagini/DOC_010_non_ci_sono_ne_mussulmani_ne_ebrei.jpg" alt="Non ci sono né mussulmani né ebrei">
+        <div class="card-overlay">
+            <h3>Non ci sono né mussulmani né ebrei</h3>
+            <a href="doc_010.html" class="btn-overlay">Vedi scheda</a>
+        </div>
+    </div>
+</div>
+
+<div class="card" data-title="Giornata nazionale per la pace in Biafra" data-type="manifesto" data-year="1968" data-date="1968-12-15" data-author="Comitato Nazionale per la pace in Biafra" data-archive="Fondazione Gramsci Emilia-Romagna" data-theme="Pacifismo">
+    <div class="card-image-wrapper">
+        <img src="immagini/DOC_011_giornata_nazionale_per_la_pace_in_biafra.jpg" alt="Giornata nazionale per la pace in Biafra">
+        <div class="card-overlay">
+            <h3>Giornata nazionale per la pace in Biafra</h3>
+            <a href="tei/doc11tei.xml" class="btn-overlay">Vedi scheda</a>
+        </div>
+    </div>
+</div>
+
+<div class="card" data-title="Studenti: non vogliamo più vivere lottando l'uno contro l'altro" data-type="manifesto" data-year="1968" data-date="1968-01-01" data-author="Movimento Studentesco Bologna" data-archive="Archivio storico della nuova sinistra &quot;Marco Pezzi&quot;" data-theme="Movimento Studentesco">
+    <div class="card-image-wrapper">
+        <img src="immagini/DOC_012_studenti_non_vogliamo_piu_vivere_lottando.jpg" alt="Studenti: non vogliamo più vivere lottando l'uno contro l'altro">
+        <div class="card-overlay">
+            <h3>Studenti: non vogliamo più vivere lottando</h3>
+            <a href="tei/doc12tei.xml" class="btn-overlay">Vedi scheda</a>
+        </div>
+    </div>
+</div>
+
+<div class="card" data-title="La salute pubblica come problema sociale" data-type="manifesto" data-year="1969" data-date="1969-03-25" data-author="Provincia di Bologna" data-archive="Fondazione Gramsci Emilia-Romagna" data-theme="Psichiatria">
+    <div class="card-image-wrapper">
+        <img src="immagini/DOC_013_la_salute_pubblica_come_problema_sociale.jpg" alt="La salute pubblica come problema sociale">
+        <div class="card-overlay">
+            <h3>La salute pubblica come problema sociale</h3>
+            <a href="tei/doc13tei.xml" class="btn-overlay">Vedi scheda</a>
+        </div>
+    </div>
+</div>
+
+<div class="card" data-title="La scuola dei padroni" data-type="manifesto" data-year="1968" data-date="1968-01-01" data-author="Movimento Studentesco Bologna" data-archive="Fondazione Gramsci Emilia-Romagna" data-theme="Movimento Studentesco">
+    <div class="card-image-wrapper">
+        <img src="immagini/DOC_014_la_scuola_dei_padroni.jpg" alt="La scuola dei padroni">
+        <div class="card-overlay">
+            <h3>La scuola dei padroni</h3>
+            <a href="tei/doc14tei.xml" class="btn-overlay">Vedi scheda</a>
+        </div>
+    </div>
+</div>
+
+<div class="card" data-title="Contro il piano del capitale. Operai-studenti uniti" data-type="manifesto" data-year="1968" data-date="1968-01-01" data-author="Movimento Studentesco Bologna" data-archive="Archivio storico della nuova sinistra &quot;Marco Pezzi&quot;" data-theme="Lotta Operaia">
+    <div class="card-image-wrapper">
+        <img src="immagini/DOC_015_contro_il_piano_del_capitale.jpg" alt="Contro il piano del capitale">
+        <div class="card-overlay">
+            <h3>Contro il piano del capitale</h3>
+            <a href="tei/doc15tei.xml" class="btn-overlay">Vedi scheda</a>
+        </div>
+    </div>
+</div>
+
+<div class="card" data-title="Salviamo Panagoulis dalla morte" data-type="manifesto" data-year="1968" data-date="1968-01-01" data-author="Partito comunista italiano: Federazione di Bologna" data-archive="Fondazione Gramsci Emilia-Romagna" data-theme="Pacifismo">
+    <div class="card-image-wrapper">
+        <img src="immagini/DOC_016_ salviamo_Panagoulis.jpg" alt="Salviamo Panagoulis dalla morte">
+        <div class="card-overlay">
+            <h3>Salviamo Panagoulis dalla morte</h3>
+            <a href="tei/doc16tei.xml" class="btn-overlay">Vedi scheda</a>
+        </div>
+    </div>
+</div>
+
+<div class="card" data-title="Studenti Medi!" data-type="volantino" data-year="1968" data-date="1968-03-10" data-author="Un gruppo di studenti medi" data-archive="Fondazione Gramsci Emilia-Romagna" data-theme="Movimento Studentesco">
+    <div class="card-image-wrapper">
+        <img src="immagini/DOC_017 studenti medi!.jpg" alt="Studenti Medi!">
+        <div class="card-overlay">
+            <h3>Studenti Medi!</h3>
+            <a href="tei/doc17tei.xml" class="btn-overlay">Vedi scheda</a>
+        </div>
+    </div>
+</div>
+
+<div class="card" data-title="Sciopero commessi dell'OMNIA, UPIM, STANDA" data-type="volantino" data-year="1968" data-date="1968-01-01" data-author="Comitato di base studenti-operai dell'OMNIA" data-archive="Archivio storico della nuova sinistra &quot;Marco Pezzi&quot;" data-theme="Lotta Operaia">
+    <div class="card-image-wrapper">
+        <img src="immagini/DOC_018_commessi_omnia_upim_standa.jpg" alt="Sciopero commessi dell'OMNIA, UPIM, STANDA">
+        <div class="card-overlay">
+            <h3>Sciopero commessi OMNIA, UPIM, STANDA</h3>
+            <a href="tei/doc18tei.xml" class="btn-overlay">Vedi scheda</a>
+        </div>
+    </div>
+</div>
+
+<div class="card" data-title="Continua l'occupazione all'ITIS Saragozza 9" data-type="volantino" data-year="1968" data-date="1968-11-09" data-author="Studenti dell'ITIS Odone Belluzzi" data-archive="Fondazione Gramsci Emilia-Romagna" data-theme="Movimento Studentesco">
+    <div class="card-image-wrapper">
+        <img src="immagini/DOC_019_continua_occupazione_itis_saragozza_9.jpg" alt="Continua l'occupazione all'ITIS Saragozza 9">
+        <div class="card-overlay">
+            <h3>Continua l'occupazione all'ITIS Saragozza 9</h3>
+            <a href="tei/doc19tei.xml" class="btn-overlay">Vedi scheda</a>
+        </div>
+    </div>
+</div>
+
+<div class="card" data-title="Con i giovani messicani contro l'oppressione e la violenza" data-type="manifesto" data-year="1968" data-date="1968-01-01" data-author="Partito comunista italiano: Federazione di Bologna" data-archive="Fondazione Gramsci Emilia-Romagna" data-theme="Internazionalismo">
+    <div class="card-image-wrapper">
+        <img src="immagini/DOC_020_Con_i_ giovani_messicani.jpg" alt="Con i giovani messicani">
+        <div class="card-overlay">
+            <h3>Con i giovani messicani</h3>
+            <a href="tei/doc20tei.xml" class="btn-overlay">Vedi scheda</a>
+        </div>
+    </div>
+</div>
+
+</section>
+<p id="noResults">Nessun documento corrisponde ai filtri selezionati.</p>
+<section class="download-section">
+    <h2>Dati aperti</h2>
+    <p>L'intero archivio è disponibile in formati aperti per il riuso e la ricerca.</p>
+    <a href="sessantotto.xml" download class="btn-download">Scarica file XML/DC</a>
+</section>
+<footer>
+        &copy; Copyright (c) 2026 by Rachele Rossini - rachele.rossini3@studio.unibo.it
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>

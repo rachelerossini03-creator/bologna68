@@ -1,0 +1,583 @@
+{
+  "collezione": {
+    "titolo": "Bologna '68 — Archivio iconografico del Sessantotto bolognese",
+    "curatrice": "Rachele Rossini",
+    "coperturaTemporale": "1967-1969",
+    "coperturaGeografica": "Bologna",
+    "lingua": "it",
+    "numeroDocumenti": 20,
+    "licenza": "Uso didattico e di ricerca non commerciale"
+  },
+  "items": [
+    {
+      "identifier": "DOC_001",
+      "title": "La camiceria Pancaldi occupata dalle lavoratrici",
+      "creator": "Enrico Pasquali",
+      "publisher": null,
+      "type": "StillImage",
+      "format": "Fotografia",
+      "subject": [
+        {
+          "term": "Movimento operaio",
+          "valueURI": "https://thes.bncf.firenze.sbn.it/termine.php?id=18092"
+        },
+        {
+          "term": "Diritto alla salute",
+          "valueURI": "https://thes.bncf.firenze.sbn.it/termine.php?id=44097"
+        },
+        "Diritti delle lavoratrici"
+      ],
+      "date": "1968-06",
+      "coverage": {
+        "place": "Bologna, Camiceria Pancaldi (ex)",
+        "valueURI": "https://www.geonames.org/3181928/bologna.html"
+      },
+      "source": "Archivio UFO",
+      "description": "Fotografia raffigurante il presidio e la manifestazione di protesta all'esterno della fabbrica bolognese \"Pancaldi\", occupata dalle lavoratrici."
+    },
+    {
+      "identifier": "DOC_002",
+      "title": "Assemblea di studenti in via Zamboni",
+      "creator": "Luciano Nicolini",
+      "publisher": null,
+      "type": "StillImage",
+      "format": "Fotografia",
+      "subject": [
+        {
+          "term": "Movimento studentesco",
+          "valueURI": "https://thes.bncf.firenze.sbn.it/termine.php?id=16240"
+        },
+        {
+          "term": "Università",
+          "valueURI": "https://thes.bncf.firenze.sbn.it/termine.php?id=7811"
+        }
+      ],
+      "date": "1968-03-07",
+      "coverage": {
+        "place": "Bologna, Via L. Zamboni 33",
+        "valueURI": "https://www.geonames.org/3181928/bologna.html"
+      },
+      "source": "Archivio Storico dell'Università di Bologna (Raccolta Luciano Nicolini)",
+      "description": "Scatto di Luciano Nicolini risalente al 7 marzo 1968 che ritrae Via Zamboni a Bologna, di fronte a Palazzo Poggi, gremita di studenti in occasione di un'assemblea del movimento studentesco universitario. Il 7 marzo oltre mille studenti manifestano in via Zamboni. Nelle assemblee emergono temi politici, quali i diritti delle donne, la non neutralità della scienza, l’opposizione alla guerra del Vietnam."
+    },
+    {
+      "identifier": "DOC_003",
+      "title": "La marcia per la pace in Vietnam di Danilo Dolci da Modena a Bologna",
+      "creator": "Luciano Nadalini",
+      "publisher": null,
+      "type": "StillImage",
+      "format": "Fotografia",
+      "subject": [
+        {
+          "term": "Internazionalismo",
+          "valueURI": "https://thes.bncf.firenze.sbn.it/termine.php?id=20070"
+        },
+        {
+          "term": "Pacifismo",
+          "valueURI": "https://thes.bncf.firenze.sbn.it/termine.php?id=1256"
+        },
+        {
+          "term": "Chiesa Cattolica",
+          "valueURI": "https://viaf.org/en/viaf/130782063"
+        },
+        {
+          "term": "Guerra del Vietnam",
+          "valueURI": "https://thes.bncf.firenze.sbn.it/termine.php?id=17249"
+        },
+        {
+          "term": "Danilo Dolci",
+          "valueURI": "https://viaf.org/en/viaf/71420970"
+        }
+      ],
+      "date": "1967-11-10",
+      "coverage": {
+        "place": "Bologna",
+        "valueURI": "https://www.geonames.org/3181928/bologna.html"
+      },
+      "source": "Archivio UFO",
+      "description": "La marcia per la pace nel Vietnam, organizzata tra gli altri da Danilo Dolci (1924-1997), noto attivista della non violenza, dal pittore Ernesto Treccani (1920-2009) e dal prof. Rodolfo Margaria (1901-1983) arriva la sera del 10 novembre a Bologna. Vi partecipano circa 9.000 persone, assieme a una delegazione di dissidenti e pacifisti sudamericani e una rappresentanza vietnamita. Si chiede la dissociazione del governo italiano dall'aggressione americana in Indocina. All'arrivo in città i manifestanti sono accolti da una folla di migliaia di persone con alla testa il sindaco e la giunta comunale. Nei giorni seguenti la marcia attraverserà l'Italia e si concluderà il 29 novembre a Roma davanti a Montecitorio. Sarà considerata il punto più alto di mobilitazione del movimento pacifista e antimilitarista in Italia."
+    },
+    {
+      "identifier": "DOC_004",
+      "title": "L'occupazione dell'Istituto di fisica \"A. Righi\"",
+      "creator": "Luciano Nicolini",
+      "publisher": null,
+      "type": "StillImage",
+      "format": "Fotografia",
+      "subject": [
+        {
+          "term": "Movimento studentesco",
+          "valueURI": "https://thes.bncf.firenze.sbn.it/termine.php?id=16240"
+        },
+        "Occupazione"
+      ],
+      "date": "1968-02",
+      "coverage": {
+        "place": "Bologna, via Irnerio 46",
+        "valueURI": "https://www.geonames.org/3181928/bologna.html"
+      },
+      "source": "Archivio Storico dell'Università di Bologna (Raccolta Luciano Nicolini)",
+      "description": "Fotografia di Luciano Nicolini scattata nel febbraio 1968 in Via Irnerio 46 a Bologna, che documenta la protesta e l'occupazione dell'Istituto di Fisica \"A. Righi\" da parte degli studenti a partire dal 14 febbraio. L'agitazione a Fisica continuerà fino all'inizio di maggio, provocando tra l'altro le dimissioni del rettore Felice Battaglia."
+    },
+    {
+      "identifier": "DOC_005",
+      "title": "Manifestazione operai-studenti",
+      "creator": "Luciano Nadalini",
+      "publisher": null,
+      "type": "StillImage",
+      "format": "Fotografia",
+      "subject": [
+        {
+          "term": "Movimento operaio",
+          "valueURI": "https://thes.bncf.firenze.sbn.it/termine.php?id=18092"
+        },
+        "Unione operai-studenti",
+        "Manifestazione"
+      ],
+      "date": "1968-04-28",
+      "coverage": {
+        "place": "Bologna, Piazza Maggiore",
+        "valueURI": "https://www.geonames.org/7670502/piazza-maggiore.html"
+      },
+      "source": "Archivio Luciano Nadalini",
+      "description": "Fotografia di Luciano Nadalini del 28 aprile 1968 scattata in Piazza Maggiore a Bologna, tappa finale della manifestazione partita dalla Bolognina. L'immagine testimonia come nel 1968 si verificò l'unione tra la protesta operaia e il movimento studentesco. Secondo \"L'Unità\" i partecipanti furono oltre tremila."
+    },
+    {
+      "identifier": "DOC_006",
+      "title": "Manifestazione contro l'attentato a Rudi Dutschke",
+      "creator": "Luciano Nicolini",
+      "publisher": null,
+      "type": "StillImage",
+      "format": "Fotografia",
+      "subject": [
+        {
+          "term": "Movimento studentesco",
+          "valueURI": "https://thes.bncf.firenze.sbn.it/termine.php?id=16240"
+        },
+        {
+          "term": "Internazionalismo",
+          "valueURI": "https://thes.bncf.firenze.sbn.it/termine.php?id=20070"
+        }
+      ],
+      "date": "1968-04-12",
+      "coverage": {
+        "place": "Bologna, via F. Rizzoli",
+        "valueURI": "https://www.geonames.org/3181928/bologna.html"
+      },
+      "source": "Archivio Storico dell'Università di Bologna (Raccolta Luciano Nicolini)",
+      "description": "Scatto di Luciano Nicolini del 12 aprile 1968 in Via F. Rizzoli a Bologna, che ritrae la manifestazione degli studenti del movimento studentesco in protesta a seguito dell'attentato al leader studentesco tedesco Rudi Dutschke."
+    },
+    {
+      "identifier": "DOC_007",
+      "title": "Sartre Parla all'Università di Bologna",
+      "creator": "Luciano Nicolini",
+      "publisher": null,
+      "type": "StillImage",
+      "format": "Fotografia",
+      "subject": [
+        "Università",
+        {
+          "term": "Jean-Paul Sartre",
+          "valueURI": "https://viaf.org/en/viaf/76322562"
+        },
+        {
+          "term": "Psichiatria",
+          "valueURI": "https://thes.bncf.firenze.sbn.it/termine.php?id=2945"
+        },
+        {
+          "term": "Movimento studentesco",
+          "valueURI": "https://thes.bncf.firenze.sbn.it/termine.php?id=16240"
+        },
+        {
+          "term": "Sanità pubblica",
+          "valueURI": "https://thes.bncf.firenze.sbn.it/termine.php?id=8237"
+        },
+        {
+          "term": "Diritto alla salute",
+          "valueURI": "https://thes.bncf.firenze.sbn.it/termine.php?id=44097"
+        }
+      ],
+      "date": "1968-07-23",
+      "coverage": {
+        "place": "Bologna, Viale C. Berti Pichat 5",
+        "valueURI": "https://www.geonames.org/3181928/bologna.html"
+      },
+      "source": "Archivio Storico dell'Università di Bologna (Raccolta Luciano Nicolini)",
+      "description": "Il filosofo francese Jean Paul Sartre (1905-1980) interviene ad un'assemblea studentesca nell'aula magna dell'istituto di Psicologia occupato. Per impedire che l'incontro diventi un evento mondano, gli studenti vietano l'accesso a giornalisti e curiosi."
+    },
+    {
+      "identifier": "DOC_008",
+      "title": "Intervento della polizia al sit-in degli studenti davanti all’Università americana Johns Hopkins nel corso di una manifestazione di solidarietà per il Vietnam, 21 maggio 1967",
+      "creator": "Luciano Nicolini",
+      "publisher": "Centro Stampa Mov. Stud.",
+      "type": "StillImage",
+      "format": "Fotografia",
+      "subject": [
+        {
+          "term": "Polizia",
+          "valueURI": "https://thes.bncf.firenze.sbn.it/termine.php?id=1347"
+        },
+        {
+          "term": "Internazionalismo",
+          "valueURI": "https://thes.bncf.firenze.sbn.it/termine.php?id=20070"
+        },
+        {
+          "term": "Pacifismo",
+          "valueURI": "https://thes.bncf.firenze.sbn.it/termine.php?id=1256"
+        },
+        {
+          "term": "Guerra del Vietnam",
+          "valueURI": "https://thes.bncf.firenze.sbn.it/termine.php?id=17249"
+        }
+      ],
+      "date": "1967-05-21",
+      "coverage": {
+        "place": "Bologna, Via Beniamino Andreatta 3",
+        "valueURI": "https://www.geonames.org/3181928/bologna.html"
+      },
+      "source": "Archivio Storico dell'Università di Bologna (Raccolta Luciano Nicolini)",
+      "description": "Nel corso di una manifestazione di solidarietà per il Vietnam, un grande corteo di studenti si snoda per il centro cittadino e nella zona universitaria. Un gruppo, che ha manifestato scandendo slogan e con un breve sit-in davanti all'Università americana “Johns Hopkins”, viene in seguito caricato duramente dalla polizia."
+    },
+    {
+      "identifier": "DOC_009",
+      "title": "Il Resto del Carlino e la RAI TV hanno paura del Movimento Studentesco",
+      "creator": "Movimento Studentesco Bologna",
+      "publisher": "Centro Stampa Mov. Stud.",
+      "type": "Text",
+      "format": "Manifesto",
+      "subject": [
+        {
+          "term": "Movimento studentesco",
+          "valueURI": "https://thes.bncf.firenze.sbn.it/termine.php?id=16240"
+        },
+        "Unione operai-studenti"
+      ],
+      "date": "1968",
+      "coverage": {
+        "place": "Bologna",
+        "valueURI": "https://www.geonames.org/3181928/bologna.html"
+      },
+      "source": "Archivio storico della nuova sinistra \"Marco Pezzi\"",
+      "description": "Volantino di propaganda politica incentrato sull'alleanza tra operai e studenti e sulla critica ai mezzi d'informazione (il Resto del Carlino e RAI). Nella parte superiore è presente l'illustrazione di due braccia (con le scritte OPERAI e STUDENTI) che spezzano il logo della testata giornalistica \"il Resto del Carlino\"."
+    },
+    {
+      "identifier": "DOC_010",
+      "title": "Non ci sono né mussulmani né ebrei, ci sono solo sfruttati e sfruttatori",
+      "creator": "Movimento Studentesco Bologna",
+      "publisher": "Centro Stampa Mov. Stud.",
+      "type": "Text",
+      "format": "Manifesto",
+      "subject": [
+        {
+          "term": "Movimento studentesco",
+          "valueURI": "https://thes.bncf.firenze.sbn.it/termine.php?id=16240"
+        },
+        {
+          "term": "Internazionalismo",
+          "valueURI": "https://thes.bncf.firenze.sbn.it/termine.php?id=20070"
+        },
+        {
+          "term": "Pacifismo",
+          "valueURI": "https://thes.bncf.firenze.sbn.it/termine.php?id=1256"
+        },
+        {
+          "term": "Palestina",
+          "valueURI": "https://www.geonames.org/6254930/palestine"
+        },
+        {
+          "term": "Lotta di classe",
+          "valueURI": "https://thes.bncf.firenze.sbn.it/termine.php?id=9716"
+        }
+      ],
+      "date": "1968-1969",
+      "coverage": {
+        "place": "Bologna",
+        "valueURI": "https://www.geonames.org/3181928/bologna.html"
+      },
+      "source": "Archivio storico della nuova sinistra \"Marco Pezzi\"",
+      "description": "Manifesto di solidarietà con la causa palestinese e di lettura di classe del conflitto mediorientale."
+    },
+    {
+      "identifier": "DOC_011",
+      "title": "Manifesto Giornata nazionale per la pace in Biafra",
+      "creator": "Comitato Nazionale per la pace in Biafra",
+      "publisher": null,
+      "type": "Text",
+      "format": "Manifesto",
+      "subject": [
+        {
+          "term": "Internazionalismo",
+          "valueURI": "https://thes.bncf.firenze.sbn.it/termine.php?id=20070"
+        },
+        {
+          "term": "Pacifismo",
+          "valueURI": "https://thes.bncf.firenze.sbn.it/termine.php?id=1256"
+        },
+        {
+          "term": "Biafra",
+          "valueURI": "https://www.geonames.org/11126247/biafra.html"
+        }
+      ],
+      "date": "1968-12-15",
+      "coverage": {
+        "place": "Bologna, Piazza Maggiore e Sala Farnese (Palazzo d'Accursio)",
+        "valueURI": "https://www.geonames.org/7670502/piazza-maggiore.html"
+      },
+      "source": "Fondazione Gramsci Emilia-Romagna",
+      "description": "Manifesto che annuncia una manifestazione e successivo dibattito per la situazione del Biafra"
+    },
+    {
+      "identifier": "DOC_012",
+      "title": "Studenti: non vogliamo piu vivere lottando l'uno contro l'altro",
+      "creator": "Movimento Studentesco Bologna",
+      "publisher": "Centro Stampa - Commissione Scuola",
+      "type": "Text",
+      "format": "Manifesto",
+      "subject": [
+        {
+          "term": "Movimento studentesco",
+          "valueURI": "https://thes.bncf.firenze.sbn.it/termine.php?id=16240"
+        },
+        {
+          "term": "Scuola",
+          "valueURI": "https://thes.bncf.firenze.sbn.it/termine.php?id=5071"
+        }
+      ],
+      "date": "1968",
+      "coverage": {
+        "place": "Bologna",
+        "valueURI": "https://www.geonames.org/3181928/bologna.html"
+      },
+      "source": "Archivio storico della nuova sinistra \"Marco Pezzi\"",
+      "description": "Volantino che analizza e contesta il ruolo della scuola borghese, definita come strumento di selezione, repressione e riproduzione dello sfruttamento, lanciando un appello agli studenti per la distruzione dell'istituzione scolastica tradizionale e la ripresa della lotta di classe."
+    },
+    {
+      "identifier": "DOC_013",
+      "title": "La salute pubblica come problema sociale. La lotta contro l'istituzione psichiatrica autoritaria",
+      "creator": "Provincia di Bologna, Associazione per la lotta contro le malattie mentali, Amministrazione Comunale di Casalecchio di Reno, C.G.I.L. DI CASALECCHIO DI RENO, C.I.S.L. DI CASALECCHIO DI RENO",
+      "publisher": "Artigrafiche TAMARI - Bologna",
+      "type": "Text",
+      "format": "Manifesto",
+      "subject": [
+        {
+          "term": "Sanità pubblica",
+          "valueURI": "https://thes.bncf.firenze.sbn.it/termine.php?id=8237"
+        },
+        {
+          "term": "Diritto alla salute",
+          "valueURI": "https://thes.bncf.firenze.sbn.it/termine.php?id=44097"
+        },
+        {
+          "term": "Psichiatria",
+          "valueURI": "https://thes.bncf.firenze.sbn.it/termine.php?id=2945"
+        }
+      ],
+      "date": "1969-03-25",
+      "coverage": {
+        "place": "Casalecchio di Reno (BO)",
+        "valueURI": "https://www.geonames.org/3180224/casalecchio-di-reno.html"
+      },
+      "source": "Fondazione Gramsci Emilia-Romagna",
+      "description": "Manifesto a stampa che annuncia un dibattito pubblico sul tema \"La salute pubblica come problema sociale. La lotta contro l'istituzione psichiatrica autoritaria\", tenutosi martedì 25 marzo 1969 presso la Sala Parrocchiale di Casalecchio di Reno."
+    },
+    {
+      "identifier": "DOC_014",
+      "title": "La scuola dei padroni",
+      "creator": "Movimento Studentesco Bologna",
+      "publisher": "Centro Stampa Mov. Stud.",
+      "type": "Text",
+      "format": "Manifesto",
+      "subject": [
+        {
+          "term": "Movimento studentesco",
+          "valueURI": "https://thes.bncf.firenze.sbn.it/termine.php?id=16240"
+        },
+        {
+          "term": "Scuola",
+          "valueURI": "https://thes.bncf.firenze.sbn.it/termine.php?id=5071"
+        }
+      ],
+      "date": "1968",
+      "coverage": {
+        "place": "Bologna",
+        "valueURI": "https://www.geonames.org/3181928/bologna.html"
+      },
+      "source": "Fondazione Gramsci Emilia-Romagna",
+      "description": "Manifesto con un'imponente illustrazione in nero. L'immagine raffigura la sagoma minacciosa e imponente di un poliziotto in tenuta antisommossa, armato di manganello, che sovrasta la figura stilizzata e inerme di uno studente che tiene dei libri in mano."
+    },
+    {
+      "identifier": "DOC_015",
+      "title": "Contro il piano del capitale: riforme, repressione nelle fabbriche - nelle scuole. Organizziamo la lotta nei comitati di base. Operai-studenti uniti",
+      "creator": "Movimento Studentesco Bologna",
+      "publisher": "Centro Stampa Mov. Stud.",
+      "type": "StillImage",
+      "format": "Manifesto",
+      "subject": [
+        {
+          "term": "Movimento studentesco",
+          "valueURI": "https://thes.bncf.firenze.sbn.it/termine.php?id=16240"
+        },
+        {
+          "term": "Movimento operaio",
+          "valueURI": "https://thes.bncf.firenze.sbn.it/termine.php?id=18092"
+        },
+        "Unione operai-studenti"
+      ],
+      "date": "1968",
+      "coverage": {
+        "place": "Bologna",
+        "valueURI": "https://www.geonames.org/3181928/bologna.html"
+      },
+      "source": "Archivio storico della nuova sinistra \"Marco Pezzi\"",
+      "description": "Manifesto politico a cura del Centro Stampa Movimento Studentesco. Il testo invita a organizzare la lotta nei comitati di base contro il piano del capitale, riaffermando l'unità tra operai e studenti."
+    },
+    {
+      "identifier": "DOC_016",
+      "title": "Salviamo Panagoulis dalla morte",
+      "creator": "Partito comunista italiano: Federazione di Bologna",
+      "publisher": "Arte Stampe Bologna",
+      "type": "Text",
+      "format": "Manifesto",
+      "subject": [
+        {
+          "term": "Grecia",
+          "valueURI": "https://www.geonames.org/390903/hellenic-republic.html"
+        },
+        {
+          "term": "Colpo di stato",
+          "valueURI": "https://thes.bncf.firenze.sbn.it/termine.php?id=35823"
+        },
+        {
+          "term": "Partito Comunista Italiano",
+          "valueURI": "https://viaf.org/en/viaf/159457224"
+        },
+        "Dittatura dei colonnelli",
+        {
+          "term": "Internazionalismo",
+          "valueURI": "https://thes.bncf.firenze.sbn.it/termine.php?id=20070"
+        },
+        {
+          "term": "Pacifismo",
+          "valueURI": "https://thes.bncf.firenze.sbn.it/termine.php?id=1256"
+        }
+      ],
+      "date": "1968",
+      "coverage": {
+        "place": "Bologna",
+        "valueURI": "https://www.geonames.org/3181928/bologna.html"
+      },
+      "source": "Fondazione Gramsci Emilia-Romagna",
+      "description": "Il manifesto mobilita la protesta dei democratici bolognesi contro la condanna a morte del patriota greco Alexandros Panagoulis da parte del regime dei colonnelli ad Atene, chiedendo la fine delle torture, del sangue e la liberazione della Grecia."
+    },
+    {
+      "identifier": "DOC_017",
+      "title": "Studenti Medi!",
+      "creator": "Un gruppo di studenti medi",
+      "publisher": null,
+      "type": "Text",
+      "format": "Volantino ciclostilato",
+      "subject": [
+        {
+          "term": "Movimento studentesco",
+          "valueURI": "https://thes.bncf.firenze.sbn.it/termine.php?id=16240"
+        },
+        {
+          "term": "Scuola",
+          "valueURI": "https://thes.bncf.firenze.sbn.it/termine.php?id=5071"
+        }
+      ],
+      "date": "1968-03-10",
+      "coverage": {
+        "place": "Bologna",
+        "valueURI": "https://www.geonames.org/3181928/bologna.html"
+      },
+      "source": "Fondazione Gramsci Emilia-Romagna",
+      "description": "Volantino di propaganda studentesca a firma di \"Un gruppo di studenti medi\". Il documento denuncia l'autoritarismo e l'inadeguatezza della scuola, cita le recenti occupazioni dei licei bolognesi (Fermi) e nazionali (Berchet, Parini, Einstein, Feltrinelli, Volta, Carducci, D'Azeglio) e convoca un'assemblea generale degli studenti medi presso la Facoltà di Lettere e Filosofia di via Zamboni 29"
+    },
+    {
+      "identifier": "DOC_018",
+      "title": "Sciopero commessi dell'OMNIA, UPIM, STANDA",
+      "creator": "Comitato di base studenti-operai dell'OMNIA",
+      "publisher": null,
+      "type": "Text",
+      "format": "Volantino ciclostilato",
+      "subject": [
+        {
+          "term": "Movimento operaio",
+          "valueURI": "https://thes.bncf.firenze.sbn.it/termine.php?id=18092"
+        },
+        "Unione operai-studenti",
+        "Società dei consumi",
+        {
+          "term": "Sciopero",
+          "valueURI": "https://thes.bncf.firenze.sbn.it/termine.php?id=9343"
+        }
+      ],
+      "date": "1968",
+      "coverage": {
+        "place": "Bologna",
+        "valueURI": "https://www.geonames.org/3181928/bologna.html"
+      },
+      "source": "Archivio storico della nuova sinistra \"Marco Pezzi\", Fondo \"Artemio Assiri\"",
+      "description": "Volantino ciclostilato indirizzato ai commessi dei grandi magazzini OMNIA, UPIM e STANDA, prodotto dal Comitato di base studenti-operai dell'OMNIA. Il testo denuncia lo sfruttamento, i lunghi orari di lavoro, i salari bassi e la precarietà delle apprendiste nel settore del commercio, promuovendo lo sciopero di protesta del sabato e l'alleanza tra studenti, operai e commessi contro il profitto dei padroni."
+    },
+    {
+      "identifier": "DOC_019",
+      "title": "Continua l'occupazione all'ITIS Saragozza 9",
+      "creator": "Studenti dell'ITIS Odone Belluzzi",
+      "publisher": null,
+      "type": "Text",
+      "format": "Volantino ciclostilato",
+      "subject": [
+        {
+          "term": "Movimento studentesco",
+          "valueURI": "https://thes.bncf.firenze.sbn.it/termine.php?id=16240"
+        },
+        "Occupazione"
+      ],
+      "date": "1968-11-09",
+      "coverage": {
+        "place": "Bologna, ITIS Odone Belluzzi Via Saragozza 9",
+        "valueURI": "https://www.geonames.org/3181928/bologna.html"
+      },
+      "source": "Fondazione Gramsci Emilia-Romagna",
+      "description": "Volantino agitatorio dattiloscritto dagli studenti dell'ITIS Odone Belluzzi di Bologna, relativo all'occupazione della sede di via Saragozza 9. Il documento denuncia le cariche e la repressione della polizia avvenute l'8 novembre 1968, rende note le rivendicazioni scolastiche e assembleari respinte dalle autorità e lances un appello alla popolazione e alla città per sostenere uniti la lotta studentesca"
+    },
+    {
+      "identifier": "DOC_020",
+      "title": "Con i giovani messicani contro l'oppressione e la violenza",
+      "creator": {
+        "name": "Partito comunista italiano: Federazione di Bologna",
+        "valueURI": "https://viaf.org/en/viaf/159457224"
+      },
+      "publisher": "Arte Stampe Bologna",
+      "type": "Text",
+      "format": "Manifesto",
+      "subject": [
+        {
+          "term": "Messico",
+          "valueURI": "https://www.geonames.org/3996063/mexico"
+        },
+        {
+          "term": "Partito Comunista Italiano",
+          "valueURI": "https://viaf.org/en/viaf/159457224"
+        },
+        {
+          "term": "Internazionalismo",
+          "valueURI": "https://thes.bncf.firenze.sbn.it/termine.php?id=20070"
+        },
+        {
+          "term": "Pacifismo",
+          "valueURI": "https://thes.bncf.firenze.sbn.it/termine.php?id=1256"
+        }
+      ],
+      "date": "1968",
+      "coverage": {
+        "place": "Bologna",
+        "valueURI": "https://www.geonames.org/3181928/bologna.html"
+      },
+      "source": "Fondazione Gramsci Emilia-Romagna",
+      "description": "Manifesto politico in solidarietà con la gioventù e gli studenti messicani in seguito al massacro di Tlatelolco a Città del Messico. Il testo esprime condanna e sdegno verso la repressione armata statale, inserendo la protesta nel quadro delle lotte antimperialiste in America Latina e invitando tutte le forze democratiche, laiche e cattoliche a intensificare la mobilitazione per la pace, la libertà e la giustizia."
+    }
+  ]
+}

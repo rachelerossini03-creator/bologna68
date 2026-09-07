@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Il Resto del Carlino e la RAI TV hanno paura del Movimento Studentesco : Edizione digitale e trascrizione</title>
+        <author>
+          <orgName>Movimento Studentesco Bologna</orgName>
+        </author>
+        <respStmt>
+          <resp>Trascrizione e codifica TEI a cura di</resp>
+          <name xml:id="RR">Rachele Rossini</name>
+        </respStmt>
+      </titleStmt>
+      
+      <publicationStmt>
+        <publisher>Rachele Rossini</publisher>
+        <pubPlace>Bologna</pubPlace>
+        <date when="2026">2026</date>
+      </publicationStmt>
+      
+      <sourceDesc>
+        <bibl>
+          <title>Il Resto del Carlino e la RAI TV hanno paura del Movimento Studentesco</title>
+          <idno type="catalog_number">DOC_009_il_resto_del_carlino_e_la_rai_tv_hanno_paura.jpg</idno>
+          <publisher>Centro Stampa Mov. Stud.</publisher>
+          <date when="1968">1968</date>
+          <note type="source">Archivio Marco Pezzi</note>
+          <note type="medium">Manifesto</note>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    
+    <profileDesc>
+      <langUsage>
+        <language ident="it">Italiano</language>
+      </langUsage>
+      <textClass>
+        <keywords>
+          <term ref="https://thes.bncf.firenze.sbn.it/termine.php?id=16240">Movimento studentesco</term>
+          <term>Unione operai-studenti</term>
+        </keywords>
+      </textClass>
+      <settingDesc>
+        <place ref="https://www.geonames.org/3181928/bologna.html">
+          <placeName>Bologna</placeName>
+        </place>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+
+  <text>
+    <body>
+      <pb facs="DOC_009_il_resto_del_carlino_e_la_rai_tv_hanno_paura.jpg" n="1"/>
+      
+      <div type="flyer" xml:lang="it">
+        
+        <!-- Sezione illustrativa superiore -->
+        <figure rendition="#illustration">
+          <figDesc>
+            Illustrazione a tratto rosso raffigurante due braccia muscolose con le scritte "OPERAI" e "STUDENTI" 
+            che spezzano una barra recante la testata del quotidiano "il Resto del Carlino".
+          </figDesc>
+          <ab rend="red bold uppercase">
+            <lb/><label type="graphic-text" rend="left">OPERAI</label>
+            <lb/><orgName type="media">il Resto del Carlino</orgName>
+            <lb/><label type="graphic-text" rend="right">STUDENTI</label>
+          </ab>
+        </figure>
+
+        <!-- Titolo principale del manifesto -->
+        <head rend="red bold uppercase" scope="major">
+          <lb/><orgName type="media">il Resto del Carlino</orgName>
+          <lb/><orgName type="media" ref="https://viaf.org/en/viaf/137832947">LA RAI TV</orgName> HANNO PAURA
+          <lb/>CHE IL <orgName ref="https://thes.bncf.firenze.sbn.it/termine.php?id=16240">MOVIMENTO STUDEN
+          <lb/>TESCO</orgName> CON LA SUA CARICA
+          <lb/>RIVOLUZIONARIA SI SALDI
+          <lb/>ALLE <rs type="political_subject">MASSE POPOLARI</rs> E
+          <lb/>CON ESSE FORMI UN FRONTE
+          <lb/>UNITO INVINCIBILE
+        </head>
+
+        <!-- Slogan e sottoscrizione a piè di pagina -->
+        <p rend="red bold uppercase" rendition="#slogan">
+          <lb/><rs type="social_group">OPERAI</rs> <rs type="social_group">STUDENTI</rs> UNITI NELLA <term type="political_concept">LOTTA</term>
+        </p>
+
+        <p rend="red bold uppercase" rendition="#imprint" style="font-size: small;">
+          <lb/><orgName type="publisher">CENTRO STAMPA MOV. STUD.</orgName>
+        </p>
+
+      </div>
+    </body>
+  </text>
+</TEI>

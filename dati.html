@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bologna '68 — Dati</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <div class="logo">
+        <a href="index.html">Bologna '68</a>
+    </div>
+    <nav class="topnav" id="myTopnav">
+        <ul>
+            <li><a href="index.html" >Home</a></li>
+            <li><a href="catalogo.html">Catalogo</a></li>
+            <li><a href="spazi.html">Gli spazi</a></li>
+            <li><a href="tempi.html">I tempi</a></li>
+            <li><a href="dati.html" class="active">Dati</a></li>
+            <li class="icon-item">
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+    <section class="dati-intro">
+        <h1>Dati aperti</h1>
+        <p>I metadati dell'intero archivio, in formato aperto, riusabile e interoperabile.</p>
+    </section>
+
+    <div class="download-buttons">
+        <a href="sessantotto.xml" download class="btn-download">Scarica XML/DC</a>
+        <a href="sessantotto.json" download class="btn-download">Scarica JSON</a>
+    </div>
+
+    <section class="dati-section">
+        <h2>Fonti e metodologia</h2>
+        <p>
+            I documenti fotografici, i manifesti e i volantini raccolti in questo archivio sono stati
+            reperiti tramite consultazione dei portali digitali delle seguenti istituzioni: Fondazione
+            Gramsci Emilia-Romagna (catalogo <a href="https://www.manifestipolitici.it/SebinaOpacGramsci/.do">Manifestipolitici.it</a>), Archivio Storico dell'Università di
+            Bologna, Archivio storico della nuova sinistra "Marco Pezzi" (che comprende il Fondo Artemio
+            Assiri),Archivio della Camera del Lavoro di Bologna "Paolo Pedrelli".
+        </p>
+
+        <p>
+         Una parte dei materiali fotografici è stata reperita anche tramite la mostra documentale
+         <em>"Non è che l'inizio: tracce del '68 negli archivi bolognesi"</em> (2018), promossa dalla <a href="https://archividelpresente.org/" target="_blank" style="color:red">Rete degli Archivi del Presente</a>, un network di istituzioni bolognesi (tra cui l'Archivio storico dell'Università di Bologna e l'Archivio storico dell'Unione Fotografi Organizzati) dedicato alla valorizzazione condivisa del patrimonio archivistico del secondo Novecento. Importanti, soprattutto per la realizzazione della linea del tempo, sono state le immagini della mostra  "E' successo quel '68", digitalizzate e reperibili presso  <a href="https://www.comune.bologna.it/iperbole/asnsmp/Foto_Nadalini_mostra_1968.html" style ="color:red" > questo link </a>
+       
+        </p>
+        <p>
+            Le immagini sono utilizzate a fini esclusivamente didattici e di ricerca, nell'ambito di un
+            progetto universitario senza scopo di lucro. In particolare, per i materiali tratti da
+            Manifestipolitici.it, l'utilizzo rientra nelle condizioni dichiarate dalla Fondazione Gramsci
+            Emilia-Romagna, che prevedono l'uso gratuito delle immagini online in formato .jpg per fini
+            didattici, di studio e ricerca. Per ciascun documento, la fonte specifica è indicata nei
+            metadati (<code>dc:provenance</code>) e nella relativa scheda descrittiva.
+        </p>
+    </section>
+
+    <section class="dati-section">
+        <h2>Riconciliazione con record di autorità</h2>
+        <p>
+            Dove possibile, i soggetti (<code>dcterms:subject</code>), i luoghi (<code>dcterms:spatial</code>) e
+            gli autori (<code>dcterms:creator</code>) sono stati collegati a un identificatore univoco esterno
+            tramite l'attributo <code>dcterms:URI</code>, seguendo il principio del Linked Open Data: lo
+            stesso concetto, espresso con termini diversi da progetti diversi, viene ricondotto a
+            un'unica entità condivisa e verificabile. Sono stati utilizzati due vocabolari di autorità:
+        </p>
+        <ul style="list-style: disc; padding-left: 24px; color: #4a4a4a; line-height: 1.8;">
+            <li>Thesaurus della <strong>BNCF </strong> - per i soggetti;</li>
+            <li><strong>GeoNames</strong> — per i luoghi geografici; </li>
+            <li><strong>VIAF</strong> - per le persone.
+        </ul>
+        <p>
+            Dove un authority record verificabile non è stato reperito, il campo è stato lasciato come
+            testo libero, per non introdurre collegamenti non accertati.
+        </p>
+    </section>
+
+    <section class="dati-section">
+        <h2>Metadati della collezione</h2>
+        <div class="dati-table-wrapper">
+            <table class="dati-table">
+                <tr><th>Campo</th><th>Valore</th></tr>
+                <tr><td>Titolo</td><td>Bologna '68 — Archivio iconografico del Sessantotto bolognese</td></tr>
+                <tr><td>Curatrice</td><td>Rachele Rossini</td></tr>
+                <tr><td>Copertura temporale</td><td>1967–1969</td></tr>
+                <tr><td>Copertura geografica</td><td>Bologna</td></tr>
+                <tr><td>Lingua</td><td>Italiano (it)</td></tr>
+                <tr><td>Numero di documenti</td><td>20 (fotografie, manifesti, volantini)</td></tr>
+                <tr><td>Standard di metadatazione</td><td>Dublin Core (DC); TEI per le schede di approfondimento dei Full text</td></tr>
+                <tr><td>Formati disponibili</td><td>XML, JSON</td></tr>
+                <tr><td>Licenza</td><td>Uso didattico e di ricerca non commerciale</td></tr>
+            </table>
+        </div>
+    </section>
+
+    <section class="dati-section">
+        <h2>Record e item indicizzati</h2>
+        <p>Elenco completo dei 20 documenti dell'archivio, con i relativi metadati descrittivi.</p>
+        <div class="dati-table-wrapper">
+            <table class="dati-table">
+                <tr>
+                    <th>ID</th>
+                    <th>Titolo</th>
+                    <th>Formato</th>
+                    <th>Autore</th>
+                    <th>Data</th>
+                    <th>Luogo</th>
+                    <th>Temi</th>
+                    <th>Fonte</th>
+                </tr>
+
+                <tr>
+                    <td>DOC_001</td>
+                    <td>La camiceria Pancaldi occupata dalle lavoratrici</td>
+                    <td>Fotografia</td>
+                    <td>Enrico Pasquali</td>
+                    <td>1968-06</td>
+                    <td><a href="https://www.geonames.org/3181928/bologna.html" target="_blank">Bologna</a></td>
+                    <td><a href="https://thes.bncf.firenze.sbn.it/termine.php?id=18092">Movimento operaio</a>, <a href="https://thes.bncf.firenze.sbn.it/termine.php?id=44097">Diritto alla salute</a></td>
+                    <td>Archivio UFO</td>
+                </tr>
+
+                <tr>
+                    <td>DOC_002</td>
+                    <td>Assemblea di studenti in via Zamboni</td>
+                    <td>Fotografia</td>
+                    <td>Luciano Nicolini</td>
+                    <td>1968-03-07</td>
+                    <td><a href="https://www.geonames.org/3181928/bologna.html" target="_blank">Bologna</a></td>
+                    <td><a href="https://thes.bncf.firenze.sbn.it/termine.php?id=16240" target="_blank">Movimento studentesco</a>, <a href="https://thes.bncf.firenze.sbn.it/termine.php?id=7811">Università</a></td>
+                    <td><a href="http://viaf.org/viaf/130383763">Archivio Storico Università di Bologna</a></td>
+                </tr>
+
+                <tr>
+                    <td>DOC_003</td>
+                    <td>La marcia per la pace in Vietnam di Danilo Dolci</td>
+                    <td>Fotografia</td>
+                    <td>Luciano Nadalini</td>
+                    <td>1967-11-10</td>
+                    <td><a href="https://www.geonames.org/3181928/bologna.html" target="_blank">Bologna</a></td>
+                    <td><a href="https://thes.bncf.firenze.sbn.it/termine.php?id=20070" target="_blank">Internazionalismo</a>, <a href="https://thes.bncf.firenze.sbn.it/termine.php?id=1256" target="_blank">Pacifismo</a></td>
+                    <td>Archivio UFO</td>
+                </tr>
+
+                <tr>
+                    <td>DOC_004</td>
+                    <td>L'occupazione dell'Istituto di fisica "A. Righi"</td>
+                    <td>Fotografia</td>
+                    <td>Luciano Nicolini</td>
+                    <td>1968-02</td>
+                    <td><a href="https://www.geonames.org/3181928/bologna.html" target="_blank">Bologna</a></td>
+                    <td><a href="https://thes.bncf.firenze.sbn.it/termine.php?id=16240" target="_blank">Movimento studentesco</a>, Occupazione</td>
+                    <td><a href="http://viaf.org/viaf/130383763">Archivio Storico Università di Bologna</a></td>
+                </tr>
+
+                <tr>
+                    <td>DOC_005</td>
+                    <td>Manifestazione operai-studenti</td>
+                    <td>Fotografia</td>
+                    <td>Luciano Nadalini</td>
+                    <td>1968-04-28</td>
+                    <td><a href="https://www.geonames.org/7670502/piazza-maggiore.html" target="_blank">Piazza Maggiore, Bologna</a></td>
+                    <td><a href="https://thes.bncf.firenze.sbn.it/termine.php?id=18092">Movimento operaio</a>,Manifestazione</td>
+                    <td>Archivio Luciano Nadalini</td>
+                </tr>
+
+                <tr>
+                    <td>DOC_006</td>
+                    <td>Manifestazione contro l'attentato a Rudi Dutschke</td>
+                    <td>Fotografia</td>
+                    <td>Luciano Nicolini</td>
+                    <td>1968-04-12</td>
+                    <td><a href="https://www.geonames.org/3181928/bologna.html" target="_blank">Bologna</a></td>
+                    <td><a href="https://thes.bncf.firenze.sbn.it/termine.php?id=16240" target="_blank">Movimento studentesco</a>, <a href="https://thes.bncf.firenze.sbn.it/termine.php?id=20070" target="_blank">Internazionalismo</a></td>
+                    <td><a href="http://viaf.org/viaf/130383763">Archivio Storico Università di Bologna</a></td>
+                </tr>
+
+                <tr>
+                    <td>DOC_007</td>
+                    <td>Sartre parla all'Università di Bologna</td>
+                    <td>Fotografia</td>
+                    <td>Luciano Nicolini</td>
+                    <td>1968-07-23</td>
+                    <td><a href="https://www.geonames.org/3181928/bologna.html" target="_blank">Bologna</a></td>
+                    <td><a href="https://thes.bncf.firenze.sbn.it/termine.php?id=2945" target="_blank">Psichiatria</a>, <a href="https://thes.bncf.firenze.sbn.it/termine.php?id=16240" target="_blank">Movimento studentesco</a></td>
+                    <td><a href="http://viaf.org/viaf/130383763">Archivio Storico Università di Bologna</a></td>
+                </tr>
+
+                <tr>
+                    <td>DOC_008</td>
+                    <td>Intervento della polizia al sit-in Johns Hopkins</td>
+                    <td>Fotografia</td>
+                    <td>Luciano Nicolini</td>
+                    <td>1967-05-21</td>
+                    <td><a href="https://www.geonames.org/3181928/bologna.html" target="_blank">Bologna</a></td>
+                    <td><a href="https://thes.bncf.firenze.sbn.it/termine.php?id=1347" target="_blank">Polizia</a>, <a href="https://thes.bncf.firenze.sbn.it/termine.php?id=20070" target="_blank">Internazionalismo</a></td>
+                    <td><a href="http://viaf.org/viaf/130383763">Archivio Storico Università di Bologna</a></td>
+                </tr>
+
+                <tr>
+                    <td>DOC_009</td>
+                    <td>Il Resto del Carlino e la RAI TV hanno paura</td>
+                    <td>Manifesto</td>
+                    <td>Movimento Studentesco Bologna</td>
+                    <td>1968</td>
+                    <td><a href="https://www.geonames.org/3181928/bologna.html" target="_blank">Bologna</a></td>
+                    <td><a href="https://thes.bncf.firenze.sbn.it/termine.php?id=16240" target="_blank">Movimento studentesco</a>, Unione operai-studenti</td>
+                    <td>Archivio "Marco Pezzi"</td>
+                </tr>
+
+                <tr>
+                    <td>DOC_010</td>
+                    <td>Non ci sono né mussulmani né ebrei</td>
+                    <td>Manifesto</td>
+                    <td>Movimento Studentesco Bologna</td>
+                    <td>1968–1969</td>
+                    <td><a href="https://www.geonames.org/3181928/bologna.html" target="_blank">Bologna</a></td>
+                    <td><a href="https://thes.bncf.firenze.sbn.it/termine.php?id=20070" target="_blank">Internazionalismo</a>, <a href="https://www.geonames.org/6254930/palestine" target="_blank">Palestina</a></td>
+                    <td>Archivio "Marco Pezzi"</td>
+                </tr>
+
+                <tr>
+                    <td>DOC_011</td>
+                    <td>Giornata nazionale per la pace in Biafra</td>
+                    <td>Manifesto</td>
+                    <td>Comitato Nazionale per la pace in Biafra</td>
+                    <td>1968-12-15</td>
+                    <td><a href="https://www.geonames.org/7670502/piazza-maggiore.html" target="_blank">Piazza Maggiore, Bologna</a></td>
+                    <td><a href="https://thes.bncf.firenze.sbn.it/termine.php?id=1256" target="_blank">Pacifismo</a>, <a href="https://www.geonames.org/11126247/biafra.html" target="_blank">Biafra</a></td>
+                    <td><a href="https://viaf.org/en/viaf/169435623">Fondazione Gramsci E-R</a></td>
+                </tr>
+
+                <tr>
+                    <td>DOC_012</td>
+                    <td>Studenti: non vogliamo più vivere lottando</td>
+                    <td>Manifesto</td>
+                    <td>Movimento Studentesco Bologna</td>
+                    <td>1968</td>
+                    <td><a href="https://www.geonames.org/3181928/bologna.html" target="_blank">Bologna</a></td>
+                    <td><a href="https://thes.bncf.firenze.sbn.it/termine.php?id=16240" target="_blank">Movimento studentesco</a>, <a href="https://thes.bncf.firenze.sbn.it/termine.php?id=5071" target="_blank">Scuola</a></td>
+                    <td>Archivio "Marco Pezzi"</td>
+                </tr>
+
+                <tr>
+                    <td>DOC_013</td>
+                    <td>La salute pubblica come problema sociale</td>
+                    <td>Manifesto</td>
+                    <td>Provincia di Bologna e altri enti</td>
+                    <td>1969-03-25</td>
+                    <td><a href="https://www.geonames.org/3180224/casalecchio-di-reno.html">Casalecchio di Reno (BO)</a></td>
+                    <td><a href="https://thes.bncf.firenze.sbn.it/termine.php?id=8237">Sanità pubblica</a>, <a href="https://thes.bncf.firenze.sbn.it/termine.php?id=2945" target="_blank">Psichiatria</a></td>
+                    <td><a href="https://viaf.org/en/viaf/169435623">Fondazione Gramsci E-R</a></td>
+                </tr>
+
+                <tr>
+                    <td>DOC_014</td>
+                    <td>La scuola dei padroni</td>
+                    <td>Manifesto</td>
+                    <td>Movimento Studentesco Bologna</td>
+                    <td>1968</td>
+                    <td><a href="https://www.geonames.org/3181928/bologna.html" target="_blank">Bologna</a></td>
+                    <td><a href="https://thes.bncf.firenze.sbn.it/termine.php?id=16240" target="_blank">Movimento studentesco</a>, <a href="https://thes.bncf.firenze.sbn.it/termine.php?id=5071" target="_blank">Scuola</a></td>
+                    <td><a href="https://viaf.org/en/viaf/169435623">Fondazione Gramsci E-R</a></td>
+                </tr>
+
+                <tr>
+                    <td>DOC_015</td>
+                    <td>Contro il piano del capitale</td>
+                    <td>Manifesto</td>
+                    <td>Movimento Studentesco Bologna</td>
+                    <td>1968</td>
+                    <td><a href="https://www.geonames.org/3181928/bologna.html" target="_blank">Bologna</a></td>
+                    <td><a href="https://thes.bncf.firenze.sbn.it/termine.php?id=16240" target="_blank">Movimento studentesco</a>, <a href="https://thes.bncf.firenze.sbn.it/termine.php?id=18092">Movimento operaio</a></td>
+                    <td>Archivio "Marco Pezzi"</td>
+                </tr>
+
+                <tr>
+                    <td>DOC_016</td>
+                    <td>Salviamo Panagoulis dalla morte</td>
+                    <td>Manifesto</td>
+                    <td><a href="https://viaf.org/en/viaf/159457224" target="_blank">PCI Federazione di Bologna</a></td>
+                    <td>1968</td>
+                    <td><a href="https://www.geonames.org/3181928/bologna.html" target="_blank">Bologna</a></td>
+                    <td><a href="https://www.geonames.org/390903/hellenic-republic.html" target="_blank">Grecia</a>, <a href="https://thes.bncf.firenze.sbn.it/termine.php?id=35823">Colpo di stato</a></td>
+                    <td><a href="https://viaf.org/en/viaf/169435623">Fondazione Gramsci E-R</a></td>
+                </tr>
+
+                <tr>
+                    <td>DOC_017</td>
+                    <td>Studenti Medi!</td>
+                    <td>Volantino</td>
+                    <td>Un gruppo di studenti medi</td>
+                    <td>1968-03-10</td>
+                    <td><a href="https://www.geonames.org/3181928/bologna.html" target="_blank">Bologna</a></td>
+                    <td><a href="https://thes.bncf.firenze.sbn.it/termine.php?id=16240" target="_blank">Movimento studentesco</a>,
+                    <td><a href="https://viaf.org/en/viaf/169435623">Fondazione Gramsci E-R</a></td>
+                </tr>
+
+                <tr>
+                    <td>DOC_018</td>
+                    <td>Sciopero commessi OMNIA, UPIM, STANDA</td>
+                    <td>Volantino</td>
+                    <td>Comitato di base studenti-operai dell'OMNIA</td>
+                    <td>1968</td>
+                    <td><a href="https://www.geonames.org/3181928/bologna.html" target="_blank">Bologna</a></td>
+                    <td><a href="https://thes.bncf.firenze.sbn.it/termine.php?id=18092">Movimento operaio</a>, <a href="https://thes.bncf.firenze.sbn.it/termine.php?id=9343" target="_blank">Sciopero</a></td>
+                    <td>Fondo "Artemio Assiri" (Archivio "Marco Pezzi")</td>
+                </tr>
+
+                <tr>
+                    <td>DOC_019</td>
+                    <td>Continua l'occupazione all'ITIS Saragozza 9</td>
+                    <td>Volantino</td>
+                    <td>Studenti dell'ITIS Odone Belluzzi</td>
+                    <td>1968-11-09</td>
+                    <td><a href="https://www.geonames.org/3181928/bologna.html" target="_blank">Bologna</a></td>
+                    <td><a href="https://thes.bncf.firenze.sbn.it/termine.php?id=16240" target="_blank">Movimento studentesco</a>,Occupazione</td>
+                    <td><a href="https://viaf.org/en/viaf/169435623">Fondazione Gramsci E-R</a></td>
+                </tr>
+
+                <tr>
+                    <td>DOC_020</td>
+                    <td>Con i giovani messicani contro l'oppressione</td>
+                    <td>Manifesto</td>
+                    <td><a href="https://viaf.org/en/viaf/159457224" target="_blank">PCI Federazione di Bologna</a></td>
+                    <td>1968</td>
+                    <td><a href="https://www.geonames.org/3181928/bologna.html" target="_blank">Bologna</a></td>
+                    <td><a href="https://www.geonames.org/3996063/mexico" target="_blank">Messico</a>, <a href="https://thes.bncf.firenze.sbn.it/termine.php?id=20070" target="_blank">Internazionalismo</a></td>
+                    <td><a href="https://viaf.org/en/viaf/169435623"><a href="https://viaf.org/en/viaf/169435623">Fondazione Gramsci E-R</a></a></td>
+                </tr>
+
+            </table>
+        </div>
+    </section>
+
+    <footer>
+        &copy; Copyright (c) 2026 by Rachele Rossini - rachele.rossini3@studio.unibo.it
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

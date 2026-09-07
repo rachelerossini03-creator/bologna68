@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bologna '68 — Gli spazi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <header>
+    <div class="logo">
+        <a href="index.html">Bologna '68</a>
+    </div>
+    <nav class="topnav" id="myTopnav">
+        <ul>
+            <li><a href="index.html" >Home</a></li>
+            <li><a href="catalogo.html">Catalogo</a></li>
+            <li><a href="spazi.html" class="active">Gli spazi</a></li>
+            <li><a href="tempi.html">I tempi</a></li>
+            <li><a href="dati.html">Dati</a></li>
+            <li class="icon-item">
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+   
+    
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
+     
+  
+<section class="spazi-intro">
+    <h1>Gli Spazi</h1>
+     <p>Mappa interattiva dei luoghi della contestazione a Bologna nel 1968 e delle istituzioni cittadine che ne conservano la memoria documentaria.</p>
+
+<main class="container">
+        
+       <div id="map"></div>
+    </main>
+</section>
+	
+<section class="download-section">
+    <h2>Dati aperti</h2>
+    <p>L'intero archivio è disponibile in formati aperti per il riuso e la ricerca.</p>
+    <a href="sessantotto.xml" download class="btn-download">Scarica file XML/DC</a>
+</section>
+
+ <footer>
+        &copy;Copyright (c) 2026 by Rachele Rossini - rachele.rossini3@studio.unibo.it
+ 
+    </footer>
+ <script> 
+    var map = L.map('map').setView([44.4949, 11.3426], 13);
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+    }).addTo(map); 
+
+    var iconaEvento = L.icon({
+      iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-red.png',
+      shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.6.0/images/marker-shadow.png',
+      iconSize: [25, 41],
+      iconAnchor: [12, 41],
+      popupAnchor: [1, -34],
+      shadowSize: [41, 41]
+    });
+
+    var markerdoc1 = L.marker([44.53195, 11.3532], {icon: iconaEvento}).addTo(map).bindPopup(
+         '<div style="text-align: center; width: 180px;">' +
+            '<h4 style="font-size: 0.85rem; margin: 0 0 8px 0; color: #000;">L\'occupazione della Camiceria Pancaldi</h4>' +
+            '<p style="font-size: 0.75rem; color: #555;">Camiceria Pancaldi (ex), Via Giovanni Papini 2, Bologna</p>' +
+            '<p style="font-size: 0.75rem; color: #555;">1968-06</p>' +
+            '<a href="sessantotto.xml" target="_blank" style="background-color: #dd2222; color: #fff; padding: 6px 12px; text-decoration: none; font-weight: bold; font-size: 0.75rem; display: inline-block;">Vai alla risorsa</a>' +
+        '</div>'
+    );
+     
+    var markerdoc2 = L.marker([44.49688, 11.35242], {icon: iconaEvento}).addTo(map).bindPopup(
+        '<div style="text-align: center; width: 180px;">' +
+            '<h4 style="font-size: 0.85rem; margin: 0 0 8px 0; color: #000;">Assemblea di studenti in via Zamboni</h4>' +
+            '<p style="font-size: 0.75rem; color: #555;">Via L. Zamboni 33, Bologna</p>' +
+            '<p style="font-size: 0.75rem; color: #555;">1968-03-07</p>' +
+            '<a href="sessantotto.xml" target="_blank" style="background-color: #dd2222; color: #fff; padding: 6px 12px; text-decoration: none; font-weight: bold; font-size: 0.75rem; display: inline-block;">Vai alla risorsa</a>' +
+        '</div>'
+    );
+
+    var markerdoc4 = L.marker([44.49929, 11.35386], {icon: iconaEvento}).addTo(map).bindPopup(
+        '<div style="text-align: center; width: 180px;">' +
+            '<h4 style="font-size: 0.85rem; margin: 0 0 8px 0; color: #000;">L\'occupazione dell\'Istituto di fisica &quot;A. Righi&quot;</h4>' +
+            '<p style="font-size: 0.75rem; color: #555;">Via Irnerio 46, Bologna</p>' +
+            '<p style="font-size: 0.75rem; color: #555;">1968-02</p>' +
+            '<a href="doc_004.html" target="_blank" style="background-color: #dd2222; color: #fff; padding: 6px 12px; text-decoration: none; font-weight: bold; font-size: 0.75rem; display: inline-block;">Vai alla risorsa</a>' +
+        '</div>'
+    );
+
+    var markerdoc5 = L.marker([44.49377, 11.34291], {icon: iconaEvento}).addTo(map).bindPopup(
+         '<div style="text-align: center; width: 180px;">' +
+            '<h4 style="font-size: 0.85rem; margin: 0 0 8px 0; color: #000;">Manifestazione di operai e studenti</h4>' +
+            '<p style="font-size: 0.75rem; color: #555;">Piazza Maggiore, Bologna</p>' +
+            '<p style="font-size: 0.75rem; color: #555;">1968-04-28</p>' +
+            '<a href="sessantotto.xml" target="_blank" style="background-color: #dd2222; color: #fff; padding: 6px 12px; text-decoration: none; font-weight: bold; font-size: 0.75rem; display: inline-block;">Vai alla risorsa</a>' +
+        '</div>'
+    );
+      
+
+    var markerdoc6 = L.marker([44.49459, 11.34445], {icon: iconaEvento}).addTo(map).bindPopup(
+         '<div style="text-align: center; width: 180px;">' +
+            '<h4 style="font-size: 0.85rem; margin: 0 0 8px 0; color: #000;">Manifestazione contro l\'attentato a Rudi Dutschke</h4>' +
+            '<p style="font-size: 0.75rem; color: #555;">Via F.Rizzoli, Bologna</p>' +
+            '<p style="font-size: 0.75rem; color: #555;">1968-04-12</p>' +
+            '<a href="sessantotto.xml" target="_blank" style="background-color: #dd2222; color: #fff; padding: 6px 12px; text-decoration: none; font-weight: bold; font-size: 0.75rem; display: inline-block;">Vai alla risorsa</a>' +
+        '</div>'
+    );
+
+    var markerdoc7 = L.marker([44.49957, 11.35591], {icon: iconaEvento}).addTo(map).bindPopup(
+         '<div style="text-align: center; width: 180px;">' +
+            '<h4 style="font-size: 0.85rem; margin: 0 0 8px 0; color: #000;">Sartre Parla all\'Università di Bologna</h4>' +
+            '<p style="font-size: 0.75rem; color: #555;">Viale C. Berti Pichat 5, Bologna</p>' +
+            '<p style="font-size: 0.75rem; color: #555;">1968-07-23</p>' +
+            '<a href="sessantotto.xml" target="_blank" style="background-color: #dd2222; color: #fff; padding: 6px 12px; text-decoration: none; font-weight: bold; font-size: 0.75rem; display: inline-block;">Vai alla risorsa</a>' +
+        '</div>'
+    );
+
+    var markerdoc8 = L.marker([44.49483, 11.35573], {icon: iconaEvento}).addTo(map).bindPopup(
+         '<div style="text-align: center; width: 180px;">' +
+            '<h4 style="font-size: 0.85rem; margin: 0 0 8px 0; color: #000;">John Hopkins University, scontri tra manifestanti e polizia</h4>' +
+            '<p style="font-size: 0.75rem; color: #555;">Cia Beniamino Andreatta 3, Bologna</p>' +
+            '<p style="font-size: 0.75rem; color: #555;">1968-05-21</p>' +
+            '<a href="sessantotto.xml" target="_blank" style="background-color: #dd2222; color: #fff; padding: 6px 12px; text-decoration: none; font-weight: bold; font-size: 0.75rem; display: inline-block;">Vai alla risorsa</a>' +
+        '</div>'
+    );
+
+    var markerdoc11 = L.marker([44.49377,11.34291], {icon: iconaEvento}).addTo(map).bindPopup(
+         '<div style="text-align: center; width: 180px;">' +
+            '<h4 style="font-size: 0.85rem; margin: 0 0 8px 0; color: #000;">Incontro Giornata Nazionale per la pace in Biafra</h4>' +
+            '<p style="font-size: 0.75rem; color: #555;">Piazza maggiore, Bologna</p>' +
+            '<p style="font-size: 0.75rem; color: #555;">1968-12-15</p>' +
+            '<a href="sessantotto.xml" target="_blank" style="background-color: #dd2222; color: #fff; padding: 6px 12px; text-decoration: none; font-weight: bold; font-size: 0.75rem; display: inline-block;">Vai alla risorsa</a>' +
+        '</div>'
+    );
+
+    var markerdoc19 = L.marker([44.49041, 11.33661], {icon: iconaEvento}).addTo(map).bindPopup(
+         '<div style="text-align: center; width: 180px;">' +
+            '<h4 style="font-size: 0.85rem; margin: 0 0 8px 0; color: #000;">ITIS "Odone Belluzzi" occupato</h4>' +
+            '<p style="font-size: 0.75rem; color: #555;">Via Saragozza 9, Bologna</p>' +
+            '<p style="font-size: 0.75rem; color: #555;">1968-11-09</p>' +
+            '<a href="sessantotto.xml" target="_blank" style="background-color: #dd2222; color: #fff; padding: 6px 12px; text-decoration: none; font-weight: bold; font-size: 0.75rem; display: inline-block;">Vai alla risorsa</a>' +
+        '</div>'
+    );
+
+    var iconaArchivio = L.icon({
+      iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-black.png',
+      shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.6.0/images/marker-shadow.png',
+      iconSize: [25, 41],
+      iconAnchor: [12, 41],
+      popupAnchor: [1, -34],
+      shadowSize: [41, 41]
+    });
+
+    var markerArchivio1 = L.marker([44.4988, 11.3423], {icon: iconaArchivio}).addTo(map).bindPopup(
+        '<div style="text-align: center; width: 180px;">' +
+            '<h4 style="font-size: 0.85rem; margin: 0 0 8px 0; color: #000;">Fondazione Gramsci Emilia-Romagna</h4>' +
+            '<p style="font-size: 0.75rem; color: #555;">Via Mentana 2, Bologna</p>' +
+            '<a href="https://iger.org/" target="_blank" style="background-color: #333; color: #fff; padding: 6px 12px; text-decoration: none; font-weight: bold; font-size: 0.75rem; display: inline-block;">SITO WEB</a>' +
+        '</div>'
+    );
+
+    var markerArchivio2 = L.marker([44.4962, 11.3524], {icon: iconaArchivio}).addTo(map).bindPopup(
+        '<div style="text-align: center; width: 180px;">' +
+            '<h4 style="font-size: 0.85rem; margin: 0 0 8px 0; color: #000;">Archivio Storico dell\'Università di Bologna</h4>' +
+            '<p style="font-size: 0.75rem; color: #555;">Via Zamboni 33, Bologna</p>' +
+            '<a href="https://archiviostorico.unibo.it/" target="_blank" style="background-color: #333; color: #fff; padding: 6px 12px; text-decoration: none; font-weight: bold; font-size: 0.75rem; display: inline-block;">SITO WEB</a>' +
+        '</div>'
+    );
+
+    var markerArchivio3 = L.marker([44.4899, 11.3327], {icon: iconaArchivio}).addTo(map).bindPopup(
+        '<div style="text-align: center; width: 180px;">' +
+            '<h4 style="font-size: 0.85rem; margin: 0 0 8px 0; color: #000;">Archivio Storico della Nuova Sinistra "Marco Pezzi"</h4>' +
+            '<p style="font-size: 0.75rem; color: #555;">Via Sant\'Isaia 18, Bologna<br>(comprende il Fondo Assiri)</p>' +
+            '<a href="https://www.comune.bologna.it/iperbole/asnsmp/" target="_blank" style="background-color: #333; color: #fff; padding: 6px 12px; text-decoration: none; font-weight: bold; font-size: 0.75rem; display: inline-block;">SITO WEB</a>' +
+        '</div>'
+    );
+    var markerArchivio4 = L.marker([44.50119, 11.33969], {icon: iconaArchivio}).addTo(map).bindPopup(
+        '<div style="text-align: center; width: 180px;">' +
+            '<h4 style="font-size: 0.85rem; margin: 0 0 8px 0; color: #000;">Archivio storico della CGIL di Bologna "Paolo Pedrelli"</h4>' +
+            '<p style="font-size: 0.75rem; color: #555;">Via Marcoli 69/e, Bologna</p>' +
+            '<a href="https://archiviopaolopedrelli.org" target="_blank" style="background-color: #333; color: #fff; padding: 6px 12px; text-decoration: none; font-weight: bold; font-size: 0.75rem; display: inline-block;">SITO WEB</a>' +
+        '</div>'
+    );
+
+    var legend = L.control({position: 'bottomright'});
+    legend.onAdd = function (map) {
+      var div = L.DomUtil.create('div', 'map-legend');
+      div.innerHTML =
+        '<div style="background:white; padding:10px 14px; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.2); font-size:0.8rem;">' +
+          '<div style="margin-bottom:6px;"><img src="https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-red.png" style="width:14px; vertical-align:middle; margin-right:6px;">Luoghi degli eventi</div>' +
+          '<div><img src="https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-black.png" style="width:14px; vertical-align:middle; margin-right:6px;">Istituti bolognesi di conservazione</div>' +
+        '</div>';
+      return div;
+    };
+    legend.addTo(map);
+</script>
+
+</body>
+</html>
+
+
+
+

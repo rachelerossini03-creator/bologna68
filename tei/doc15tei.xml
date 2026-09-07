@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Contro il piano del capitale: riforme, repressione nelle fabbriche - nelle scuole. Organizziamo la lotta nei comitati di base. Operai-studenti uniti</title>
+        <author>
+          <orgName>Movimento Studentesco Bologna</orgName>
+        </author>
+        <respStmt>
+          <resp>Trascrizione e codifica TEI a cura di</resp>
+          <name xml:id="RR">Rachele Rossini</name>
+        </respStmt>
+      </titleStmt>
+      
+      <publicationStmt>
+        <publisher>Rachele Rossini</publisher>
+        <pubPlace>Bologna</pubPlace>
+        <date when="2026">2026</date>
+      </publicationStmt>
+      
+      <sourceDesc>
+        <bibl>
+          <title>Contro il piano del capitale: riforme, repressione nelle fabbriche - nelle scuole. Organizziamo la lotta nei comitati di base. Operai-studenti uniti</title>
+          <idno type="catalog_number">DOC_015_contro_il_piano_del_capitale.jpg</idno>
+          <publisher>Centro Stampa Mov. Stud.</publisher>
+          <date when="1968">1968</date>
+          <note type="source">Archivio Marco Pezzi</note>
+          <note type="medium">Manifesto</note>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    
+    <profileDesc>
+      <langUsage>
+        <language ident="it">Italiano</language>
+      </langUsage>
+      <textClass>
+        <keywords>
+          <term ref="https://thes.bncf.firenze.sbn.it/termine.php?id=16240">Movimento studentesco</term>
+          <term>Lotta operaia</term>
+          <term>Unione operai-studenti</term>
+        </keywords>
+      </textClass>
+      <settingDesc>
+        <place ref="https://www.geonames.org/3181928/bologna.html">
+          <placeName>Bologna</placeName>
+        </place>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  
+  <text>
+    <body>
+      <pb facs="DOC_015_contro_il_piano_del_capitale.jpg" n="1"/>
+      
+      <div type="flyer" xml:lang="it">
+        
+       
+        <p rend="red bold uppercase" rendition="#imprint" style="writing-mode: vertical-rl;">
+          <lb/><orgName type="publisher">CENTRO STAMPA MOV STUD</orgName>
+        </p>
+
+        
+        <figure rendition="#illustration">
+          <figDesc>
+            Illustrazione a tratto rosso raffigurante una massa compacta di persone con il pugno alzato in segno di protesta. 
+            In primo piano spiccano due figure: un operaio che tiene in mano una chiave inglese e uno studente con dei libri sotto il braccio.
+          </figDesc>
+        </figure>
+
+       
+        <head rend="red bold uppercase" scope="major">
+          <lb/>CONTRO
+          <lb/>IL PIANO DEL <term type="political_concept">CAPITALE</term>
+          <lb/><term type="political_concept">RIFORME</term> <term type="political_concept">REPRESSIONE</term>
+          <lb/>NELLE FABBRICHE-NELLE SCUOLE
+          <lb/>ORGANIZZIAMO LA <term type="political_concept">LOTTA</term>
+          <lb/>NEI <orgName type="political_group">COMITATI DI BASE</orgName>
+        </head>
+
+        
+        <p rend="white-on-red bold uppercase" rendition="#slogan">
+          <lb/><rs type="social_group">OPERAI</rs>-<rs type="social_group">STUDENTI</rs> UNITI
+        </p>
+
+      </div>
+    </body>
+  </text>
+</TEI>

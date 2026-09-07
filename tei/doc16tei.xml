@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Salviamo Panagoulis dalla morte</title>
+        <author>
+          <orgName ref="https://viaf.org/en/viaf/159457224">Partito comunista italiano: Federazione di Bologna</orgName>
+        </author>
+        <respStmt>
+          <resp>Trascrizione e codifica TEI a cura di</resp>
+          <name xml:id="RR">Rachele Rossini</name>
+        </respStmt>
+      </titleStmt>
+      
+      <publicationStmt>
+        <publisher>Rachele Rossini</publisher>
+        <pubPlace>Bologna</pubPlace>
+        <date when="2026">2026</date>
+      </publicationStmt>
+      
+      <sourceDesc>
+        <bibl>
+          <title>Salviamo Panagoulis dalla morte</title>
+          <idno type="catalog_number">DOC_016_salviamo_panagoulis.jpg</idno>
+          <publisher>Arte Stampe Bologna</publisher>
+          <date when="1968">1968</date>
+          <note type="source">Fondazione Gramsci Emilia-Romagna</note>
+          <note type="medium">Manifesto</note>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    
+    <profileDesc>
+      <langUsage>
+        <language ident="it">Italiano</language>
+      </langUsage>
+      <textClass>
+        <keywords>
+          <term ref="https://thes.bncf.firenze.sbn.it/termine.php?id=1169">Antifascismo</term>
+    <term>Dittatura dei colonnelli</term>
+    <term ref="https://www.geonames.org/390903/hellenic-republic.html">Grecia</term>
+    <term ref="https://thes.bncf.firenze.sbn.it/termine.php?id=8229">Diritti umani</term>
+    <term ref="https://thes.bncf.firenze.sbn.it/termine.php?id=17892">Amnistia</term>
+  </keywords>
+       
+      </textClass>
+      <settingDesc>
+        <place ref="https://www.geonames.org/3181928/bologna.html">
+          <placeName>Bologna</placeName>
+        </place>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+
+  <text>
+    <body>
+      <pb facs="DOC_016_salviamo_Panagoulis.jpg" n="1"/>
+
+      <div type="flyer" xml:lang="it">
+
+        <head rend="black bold uppercase" scope="major">
+          <lb/>SALVIAMO
+          <lb/>PANAGULIS
+          <lb/>DALLA MORTE
+        </head>
+
+        <p rend="black bold">
+          <lb/>I tiranni di <placeName>Atene</placeName> vogliono
+          <lb/>assassinare un eroico patriota:
+          <lb/><persName><forename>ALESSANDRO</forename> <surname>PANAGULIS</surname></persName>,
+          <lb/>condannato a morte da una
+          <lb/>corte marziale.
+        </p>
+
+        <p rend="black bold">
+          <lb/>Si levi ovunque la protesta
+          <lb/>dei <rs type="political_group">democratici</rs>! 
+        </p>
+
+        <p rend="black bold">
+          <lb/>Basta col sangue e le torture!
+        </p>
+
+        <p rend="black bold uppercase" scope="major">
+          <lb/> <term type="political_concept">LIBERTA'</term>ALLA<placeName ref="https://www.geonames.org/390903/hellenic-republic.html">GRECIA</placeName>!
+        </p>
+
+        <p rend="black" rendition="#imprint" style="font-size: xx-small; float: left;">
+          <lb/><orgName type="printer">Arte Stampe - Collegio di Spagna, 17 - Bologna - 1968</orgName>
+        </p>
+
+        <p rend="black" rendition="#imprint" style="font-size: xx-small; float: right;">
+          <lb/>a cura della <orgName type="association">Federazione Bolognese del P.C.I.</orgName>
+        </p>
+
+      </div>
+    </body>
+  </text>
+</TEI>

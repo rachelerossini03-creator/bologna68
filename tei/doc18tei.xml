@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Volantino sciopero commessi dell'OMNIA, UPIM, STANDA</title>
+        <author>
+          <orgName>Comitato di base studenti-operai dell'OMNIA</orgName>
+        </author>
+        <respStmt>
+          <resp>Trascrizione e codifica TEI a cura di</resp>
+          <name xml:id="RR">Rachele Rossini</name>
+        </respStmt>
+      </titleStmt>
+      
+      <publicationStmt>
+        <publisher>Rachele Rossini</publisher>
+        <pubPlace>Bologna</pubPlace>
+        <date when="2026">2026</date>
+      </publicationStmt>
+      
+      <sourceDesc>
+        <bibl>
+          <title>Volantino sciopero commessi dell'OMNIA, UPIM, STANDA</title>
+          <idno type="catalog_number">DOC_018_commessi_omnia_upim_standa.jpg</idno>
+          <publisher>-</publisher>
+          <date when="1968">1968</date>
+          <note type="source" >Archivio storico della nuova sinistra "Marco Pezzi", Fondo "Artemio Assiri"</note>
+          <note type="medium">Volantino ciclostilato</note>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    
+    <profileDesc>
+      <langUsage>
+        <language ident="it">Italiano</language>
+      </langUsage>
+      <textClass>
+        <keywords>
+          <term ref="https://thes.bncf.firenze.sbn.it/termine.php?id=9341">Sciopero</term>
+          <term>Lotta operaia</term>
+          <term>Sfruttamento</term>
+          <term>Grandi Magazzini</term>
+          <term>Comitato di base</term>
+          <term>Società dei consumi</term>
+    
+  </keywords>
+       
+      </textClass>
+      <settingDesc>
+        <place ref="https://www.geonames.org/3181928/bologna.html">
+          <placeName>Bologna</placeName>
+        </place>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+
+<text>
+    <body>
+      <pb facs="DOC_018_commessi_omnia_upim_standa.jpg" n="1"/>
+
+      <div type="flyer" xml:lang="it">
+
+        <p rend="typewritten">
+          <lb/>Commessi dell'<orgName type="company">OMNIA</orgName>, <orgName type="company">UPIM</orgName>, <orgName type="company">STANDA</orgName>,
+        </p>
+
+        <p rend="typewritten">
+          <lb/>lo sfarzo e lo spreco di questi giorni, utili al profitto
+          <lb/>dei padroni si fonda sullo <hi rend="underline">sfruttamento sempre più intenso</hi>
+          <lb/><hi rend="underline">degli <rs type="social_group">operai</rs> e dei <rs type="social_group">commessi</rs>.</hi>
+          <lb/>Vediamo nei grandi magazzini: dietro lo sfarzo e le luci,
+          <lb/>dietro i visi sorridenti della pubblicità, di sta la condizione
+          <lb/>reale delle <rs type="social_group">commesse</rs>.
+        </p>
+
+        <list type="bulleted" rend="typewritten">
+          <item>
+            <lb/>--PIU' DI 8 ORE AL GIORNO di lavoro
+          </item>
+          <item>
+            <lb/>--L'OBBLIGO di stare sempre in piedi nonostante la
+            <lb/>fatica
+          </item>
+          <item>
+            <lb/>--SALARI BASSI
+          </item>
+          <item>
+            <lb/>--LA CONDIZIONE DELLE <rs type="social_group">APPRENDISTE</rs> che spesso vengono
+          </item>
+        </list>
+
+        <p rend="typewritten">
+          <lb/>licenziate quando raggiungono l'età in cui dovrebbero passare
+          <lb/>di categoria.
+          <lb/><hi rend="underline">SU QUESTO SI FONDA LA <term type="political_concept">SOCIETA' DEI CONSUMI</term></hi>
+          <lb/>Ma la rabbia degli <rs type="social group">sfruttati</rs> cresce: gli <rs type="social_group">operai</rs>, i <rs type="social_group">braccianti</rs>, i
+          <lb/><rs type="social_group">contadini</rs>, gli <rs type="social_group">studenti</rs>, ed ora anche i <rs type="social_group">commessi</rs>, scendono in lot=
+          <lb/>ta. Il padrone, come è successo all'<orgName type="company">Omnia</orgName>, ricorre al ricatto,
+          <lb/>all'intimidazione, tenta di isolare gli <rs type="social_group">operai</rs>, promette aumenti
+          <lb/>ai <rs type="social_group">crumiri</rs>. VEDE VACILLARE IL SUO POTERE E I SUOI ALTI PROFITTI
+          <lb/>NATALIZI.
+        </p>
+
+        <p rend="typewritten">
+          <lb/>Rispondiamo alle manovre del padrone organizzandoci,
+          <lb/>collegandoci, discutendo perchè lo sciopero di sabato segni
+          <lb/>l'inizio di una <hi rend="underline">lotta continua contro lo <term type="political_concept">sfruttamento</term></hi>
+        </p>
+
+        <p rend="typewritten bold uppercase">
+          <lb/>NESSUN CRUMIRO ALLO SCIOPERO DI SABATO.
+          <lb/>GLI <rs type="social_group">STUDENTI</rs> SONO CON LA LOTTA DEGLI <rs type="social_group">OPERAI </rs> E DEI <rs type="social_group">COMMESSI</rs>
+        </p>
+
+        <p rend="typewritten" style="float: right;">
+          <lb/><orgName type="committee">comitato di base
+          <lb/>studenti-operai dell'OMNIA</orgName>
+        </p>
+
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Manifesto Giornata nazionale per la pace in Biafra</title>
+        <author>
+          <orgName type="committee">Comitato Nazionale per la pace in Biafra</orgName>
+        </author>
+        <respStmt>
+          <resp>Trascrizione e codifica TEI a cura di</resp>
+          <name xml:id="RR">Rachele Rossini</name>
+        </respStmt>
+      </titleStmt>
+      
+      <publicationStmt>
+        <publisher>Rachele Rossini</publisher>
+        <pubPlace>Bologna</pubPlace>
+        <date when="2026">2026</date>
+      </publicationStmt>
+      
+      <sourceDesc>
+        <bibl>
+          <title>Giornata nazionale per la pace in Biafra</title>
+          <idno type="catalog_number">DOC_011_giornata_nazionale_per_la_pace_in_biafra.jpg</idno>
+          <date when="1968-12-15">1968-12-15</date>
+          <note type="source">Fondazione Gramsci Emilia-Romagna</note>
+          <note type="medium">Manifesto</note>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    
+    <profileDesc>
+      <langUsage>
+        <language ident="it">Italiano</language>
+      </langUsage>
+      <textClass>
+        <keywords>
+          <term ref="https://thes.bncf.firenze.sbn.it/termine.php?id=20070">Internazionalismo</term>
+          <term ref="https://thes.bncf.firenze.sbn.it/termine.php?id=1256">Pacifismo</term>
+          <term ref="https://www.geonames.org/11126247/biafra.html">Biafra</term>
+        </keywords>
+      </textClass>
+      <settingDesc>
+        <place ref="https://www.geonames.org/7670502/piazza-maggiore.html">
+          <placeName>Bologna, Piazza Maggiore e Sala Farnese (Palazzo d'Accursio)</placeName>
+        </place>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+
+  <text>
+    <body>
+      <pb facs="DOC_011_giornata_nazionale_per_la_pace_in_biafra.jpg" n="1"/>
+      
+      <div type="flyer" xml:lang="it">
+        
+        <head rend="black bold uppercase" scope="major">
+          <lb/>GIORNATA NAZIONALE PER LA
+          <lb/>PACE IN <placeName ref="https://www.geonames.org/11126247/biafra.html">BIAFRA</placeName>
+        </head>
+
+        <p rend="black bold">
+          <lb/><date when="1968-12-15">15 dicembre 1968</date>
+        </p>
+
+        <p rend="black">
+          <lb/>Ore <time when="16:30">16,30</time> Raduno dei manifestanti in
+          <lb/><placeName ref="https://www.geonames.org/7670502/piazza-maggiore.html">Piazza Maggiore</placeName>.
+          <lb/>Ore <time when="17:30">17,30</time> Nella <placeName>Sala Farnese</placeName> parlerà
+          <lb/>il biafrano <roleName type="honorific">dott.</roleName> <roleName type="title">ing.</roleName>
+        </p>
+          
+        <p rend="black bold uppercase">
+          <lb/><persName><forename>EJIKE</forename> <surname>ONYIA</surname></persName>
+        </p>
+
+        <p rend="black bold">
+          <lb/>sul tema: <title type="speech">Perchè il <placeName ref="https://www.geonames.org/11126247/biafra.html">Biafra</placeName> soffre</title>
+        </p>
+
+        <p rend="black bold">
+          <lb/>Seguirà un dibattito
+        </p>
+
+        <p rend="black bold" rendition="#imprint" style="text-align: right;">
+          <lb/><orgName type="committee">Comitato Nazionale per la pace in Biafra</orgName>
+        </p>
+
+      </div>
+    </body>
+  </text>
+</TEI>

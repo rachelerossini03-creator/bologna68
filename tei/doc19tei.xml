@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Volantino per l'occupazione all'ITIS Saragozza 9</title>
+        <author>
+          <orgName>Studenti dell'ITIS Odone Belluzzi</orgName>
+        </author>
+        <respStmt>
+          <resp>Trascrizione e codifica TEI a cura di</resp>
+          <name xml:id="RR">Rachele Rossini</name>
+        </respStmt>
+      </titleStmt>
+      
+      <publicationStmt>
+        <publisher>Rachele Rossini</publisher>
+        <pubPlace>Bologna</pubPlace>
+        <date when="2026">2026</date>
+      </publicationStmt>
+      
+      <sourceDesc>
+        <bibl>
+          <title>Volantino per l'occupazione all'ITIS Saragozza 9</title>
+          <idno type="catalog_number">DOC_019_continua_occupazione_itis_saragozza_9.jpg</idno>
+          <publisher>-</publisher>
+          <date when="1968-11-09">1968-11-09</date>
+          <note type="source">Fondazione Gramsci Emilia-Romagna</note>
+          <note type="medium">Volantino ciclostilato</note>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    
+    <profileDesc>
+      <langUsage>
+        <language ident="it">Italiano</language>
+      </langUsage>
+      <textClass>
+        <keywords>
+         <term ref="https://thes.bncf.firenze.sbn.it/termine.php?id=16240">Movimento studentesco</term>
+         <term>Occupazione</term>
+         <term>Repressione poliziesca</term>
+         <term>Studenti medi</term>
+         <term>ITIS Odone Belluzzi</term>
+         <term>Autoritarismo</term>
+    
+        </keywords>
+       
+      </textClass>
+      <settingDesc>
+        <place ref="https://www.geonames.org/3181928/bologna.html">
+          <placeName>Bologna</placeName>
+        </place>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+<text>
+    <body>
+      <pb facs="DOC_019_continua_occupazione_itis_saragozza_9.jpg" n="1"/>
+
+      <div type="flyer" xml:lang="it">
+
+        
+        <head rend="uppercase hand" scope="major">
+          <lb/>CONTINUA L'OCCUPAZIONE
+          <lb/>ALL' <orgName type="institution">ITIS</orgName>
+          <lb/><placeName>Saragozza 9</placeName>.
+        </head>
+
+        <p rend="typewritten uppercase" style="text-align: center;">
+          <lb/>IN SEGUITO ALLA BRUTALE
+        </p>
+
+        <p rend="hand">
+          <lb/><term type="political_concept">Repressione</term>
+        </p>
+
+        <p rend="typewritten">
+          <lb/>Del giorno <date when="1968-11-08">8/11/68</date> e <seg rend="hand">Prevedendo</seg>
+          <lb/>nel tardo pomeriggio di <seg rend="hand uppercase">OGGI<time when="17:00">ore 17</time></seg>
+          <lb/>un successivo intervento della
+        </p>
+
+        <p rend="hand uppercase">
+          <lb/><orgName type="institution">POLIZIA</orgName>
+        </p>
+
+        <p rend="typewritten">
+          <lb/>gli <rs type="social_group">studenti</rs> dell'<orgName type="institution">ITIS ODONE BELLUZZI</orgName> chiedono
+          <lb/>l'appoggio di tutta la popolazione nella loro lotta
+          <lb/>contro
+        </p>
+
+        <p rend="hand uppercase">
+          <lb/>L' <term type="political_concept">AUTORITARISMO</term>
+          <lb/>e
+          <lb/>la <term type="political_concept">REPRESSIONE</term>
+        </p>
+
+        <p rend="typewritten">
+          <lb/>già sanguinosamente avvenute oggi alle <orgName type="institution">ALBINI</orgName>
+          <lb/>METTONO A CONOSCENZA LE LORO PROPOSTE RESPINTE DALLE
+          <lb/><rs type="social_group">AUTORITA' SCOLASTICHE</rs>
+        </p>
+
+       
+        <list type="bulleted" rend="typewritten">
+          <item>
+            <lb/>Riconoscimento dell'assemblea studentesca
+          </item>
+          <item>
+            <lb/>Possibilità di usufruire delle aule fuori dall'orario
+            <lb/>scolastico
+          </item>
+          <item>
+            <lb/>Nessun provvedimento disciplinare nei confronti degli
+            <lb/><rs type="social_group">studenti</rs> scesi in lotta
+          </item>
+          <item>
+            <lb/><term type="political_concept">Libertà di discussione e propaganda</term> all'interno dell'isti-
+            <lb/>tuto
+          </item>
+          <item>
+            <lb/>Un'aula per il <orgName type="movement">movimento studentesco</orgName> dell'<orgName type="institution">ITIS</orgName>
+          </item>
+        </list>
+
+    
+        <p rend="hand uppercase" scope="major" style="text-align: center;">
+          <lb/>SOSTENETE UNITI
+          <lb/>LA
+          <lb/>NOSTRA LOTTA
+        </p>
+
+      </div>
+    </body>
+  </text>
+</TEI>

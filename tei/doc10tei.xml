@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Non ci sono né mussulmani né ebrei, ci sono solo sfruttati e sfruttatori</title>
+        <author>
+          <orgName>Movimento Studentesco Bologna</orgName>
+        </author>
+        <respStmt>
+          <resp>Trascrizione e codifica TEI a cura di</resp>
+          <name xml:id="RR">Rachele Rossini</name>
+        </respStmt>
+      </titleStmt>
+      
+      <publicationStmt>
+        <publisher>Rachele Rossini</publisher>
+        <pubPlace>Bologna</pubPlace>
+        <date when="2026">2026</date>
+      </publicationStmt>
+      
+      <sourceDesc>
+        <bibl>
+          <title>Non ci sono né mussulmani né ebrei, ci sono solo sfruttati e sfruttatori</title>
+          <idno type="catalog_number">DOC_010_non_ci_sono_ne_mussulmani_ne_ebrei.jpg</idno>
+          <publisher>Centro Stampa Mov. Stud.</publisher>
+          <date when="1968">1968</date>
+          <note type="source">Archivio della nuova sinistra "Marco Pezzi"</note>
+          <note type="medium">Manifesto</note>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    
+    <profileDesc>
+      <langUsage>
+        <language ident="it">Italiano</language>
+      </langUsage>
+      <textClass>
+        <keywords>
+          <term ref="https://thes.bncf.firenze.sbn.it/termine.php?id=16240">Movimento studentesco</term>
+          <term ref="https://thes.bncf.firenze.sbn.it/termine.php?id=20070">Internazionalismo</term>
+          <term ref="https://thes.bncf.firenze.sbn.it/termine.php?id=1256">Pacifismo</term>
+          <term ref="https://www.geonames.org/6254930/palestine">Palestina</term>
+          <term ref="https://thes.bncf.firenze.sbn.it/termine.php?id=9716">Lotta di classe</term>
+        </keywords>
+      </textClass>
+      <settingDesc>
+        <place ref="https://www.geonames.org/3181928/bologna.html">
+          <placeName>Bologna</placeName>
+        </place>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+
+  <text>
+    <body>
+      <pb facs="DOC_010_non_ci_sono_ne_mussulmani_ne_ebrei.jpg" n="1"/>
+      
+      <div type="flyer" xml:lang="it">
+        
+        <head rend="red bold uppercase" scope="major">
+          <lb/>NON CI SONO NE' <rs type="religious_group" ref="https://thes.bncf.firenze.sbn.it/termine.php?id=2624">MUSSULMANI</rs>
+          <lb/>NE' <rs type="religious_group" ref="https://thes.bncf.firenze.sbn.it/termine.php?id=905">EBREI</rs>, CI SONO SOLO
+          <lb/><rs type="social_group">SFRUTTATI</rs> E <rs type="social_group">SFRUTTATORI</rs>
+        </head>
+
+       
+        <figure rendition="#illustration">
+          <figDesc>
+            Illustrazione a tratto rosso racchiusa in una cornice quadrata con angoli arrotondati, 
+            raffigurante la silhouette di un combattente fedayyin palestinese con il volto coperto che imbraccia un fucile.
+          </figDesc>
+        </figure>
+
+       
+        <p rend="red bold uppercase">
+          <lb/>LA <term type="political_concept" ref="https://thes.bncf.firenze.sbn.it/termine.php?id=4272">RIVOLUZIONE</term> DEI
+          <lb/><rs type="people">PALESTINESI</rs> E' LA
+          <lb/>RISPOSTA DI CLASSE
+          <lb/>ALLA <term type="political_concept" ref="https://thes.bncf.firenze.sbn.it/termine.php?id=20344">REPRESSIONE</term> DI
+          <lb/><orgName type="state" ref="https://viaf.org/en/viaf/146498911">ISRAELE</orgName> ED ALLO
+          <lb/><term type="political_concept" ref="https://thes.bncf.firenze.sbn.it/termine.php?id=9064">SFRUTTAMENTO</term> IMPERIALI-
+          <lb/>STA DEL MONDO ARABO
+        </p>
+
+       
+        <p rend="red bold uppercase" rendition="#imprint" style="writing-mode: vertical-rl;">
+          <lb/><orgName type="publisher">CENTRO STAMPA MOV. STUD.</orgName>
+        </p>
+
+      </div>
+    </body>
+  </text>
+</TEI>

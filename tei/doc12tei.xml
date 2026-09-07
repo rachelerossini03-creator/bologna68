@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Studenti: non vogliamo piu vivere lottando l'uno contro l'altro</title>
+        <author>
+          <orgName>Movimento Studentesco Bologna</orgName>
+        </author>
+        <respStmt>
+          <resp>Trascrizione e codifica TEI a cura di</resp>
+          <name xml:id="RR">Rachele Rossini</name>
+        </respStmt>
+      </titleStmt>
+      
+      <publicationStmt>
+        <publisher>Rachele Rossini</publisher>
+        <pubPlace>Bologna</pubPlace>
+        <date when="2026">2026</date>
+      </publicationStmt>
+      
+      <sourceDesc>
+        <bibl>
+          <title>Studenti: non vogliamo piu vivere lottando l'uno contro l'altroi</title>
+          <idno type="catalog_number">DOC_012_studenti_non_vogliamo_piu_vivere_lottando.jpg</idno>
+          <publisher>Centro Stampa - Commissione Scuola</publisher>
+          <date when="1968">1968</date>
+          <note type="source">Archivio Marco Pezzi</note>
+          <note type="medium">Manifesto</note>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    
+    <profileDesc>
+      <langUsage>
+        <language ident="it">Italiano</language>
+      </langUsage>
+      <textClass>
+        <keywords>
+          <term ref="https://thes.bncf.firenze.sbn.it/termine.php?id=5071">Scuola</term>
+          <term>Sfruttamento</term>
+          <term>Repressione</term>
+          <term>Lotta</term>
+       </keywords>
+      </textClass>
+      <settingDesc>
+        <place ref="https://www.geonames.org/3181928/bologna.html">
+          <placeName>Bologna</placeName>
+        </place>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb facs="DOC_012_studenti_non_vogliamo_piu_vivere_lottando.jpg" n="1"/>
+
+      <div type="flyer" xml:lang="it">
+
+        <head rend="red bold uppercase" scope="major">
+          <lb/><rs type="social_group">STUDENTI</rs>
+        </head>
+
+        <p rend="red bold uppercase">
+          <lb/>NON VOGLIAMO PIU' VIVERE
+          <lb/>LOTTANDO L'UNO CONTRO
+          <lb/>L'ALTRO, PER AVERE UN POSTO
+          <lb/>MIGLIORE, MA SEMPRE DI SERVO
+          <lb/>LA LOTTA E' RIPRESA
+          <lb/>ATTACCANDO TUTTI GLI STRUMENTI
+          <lb/>DI <term type="political_concept">SELEZIONE</term> E <term type="political_concept">REPRESSIONE</term>,
+          <lb/>ATTACCANDO QUESTA <orgName type="institution">SCUOLA</orgName>
+          <lb/>CHE CI IMPONE DI STUDIARE
+          <lb/>COME SFRUTTARE GLI <rs type="social_group">OPERAI</rs>
+          <lb/>IN FABBRICA, COME UCCIDERE
+          <lb/><rs type="people">VIETNAMITI</rs>, COME MANIPOLARE
+          <lb/>E RENDERE INNOCUI I <rs type="social_group">PROLE-
+          <lb/>TARI</rs>.
+        </p>
+
+        <p rend="red bold uppercase">
+          <lb/>QUESTA <orgName type="institution">SCUOLA</orgName> NON SERVE
+          <lb/>A RISOLVERE I BISOGNI SOCI-
+          <lb/>ALI,
+          <lb/>SERVE SOLO A PERPETUA-
+          <lb/>RE LO <term type="political_concept">SFRUTTAMENTO</term>
+        </p>
+
+        <p rend="red bold uppercase" scope="major">
+          <lb/>QUESTA <orgName type="institution">SCUOLA</orgName>
+          <lb/>NON CI SERVE
+          <lb/>QUESTA <orgName type="institution">SCUOLA</orgName>
+          <lb/>VA DISTRUTTA
+        </p>
+
+        <p rend="red bold uppercase" rendition="#imprint" style="font-size: x-small;">
+          <lb/><orgName type="publisher">CENTRO STAMPA COMMISSIONE SCUOLA</orgName>
+        </p>
+
+      </div>
+    </body>
+  </text>
+</TEI>

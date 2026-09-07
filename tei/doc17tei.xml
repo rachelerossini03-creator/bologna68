@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Studenti Medi![Volantino d'assemblea sul movimento studentesco]</title>
+        <author>
+          <orgName>Un gruppo di studenti medi</orgName>
+        </author>
+        <respStmt>
+          <resp>Trascrizione e codifica TEI a cura di</resp>
+          <name xml:id="RR">Rachele Rossini</name>
+        </respStmt>
+      </titleStmt>
+      
+      <publicationStmt>
+        <publisher>Rachele Rossini</publisher>
+        <pubPlace>Bologna</pubPlace>
+        <date when="2026">2026</date>
+      </publicationStmt>
+      
+      <sourceDesc>
+        <bibl>
+          <title>Studenti Medi! [Volantino d'assemblea sul movimento studentesco]</title>
+          <idno type="catalog_number">DOC_017_studenti_medi!.jpg</idno>
+          <publisher>-</publisher>
+          <date when="1968-03-10">1968-03-10</date>
+          <note type="source">Fondazione Gramsci Emilia-Romagna</note>
+          <note type="medium">Volantino ciclostilato</note>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    
+    <profileDesc>
+      <langUsage>
+        <language ident="it">Italiano</language>
+      </langUsage>
+      <textClass>
+        <keywords>
+          <term ref="https://thes.bncf.firenze.sbn.it/termine.php?id=5071">Scuola</term>
+          <term ref="https://thes.bncf.firenze.sbn.it/termine.php?id=7627">Didattica</term>
+          <term>Occupazione </term>
+          <term>Assemblea generale</term>
+          <term ref="https://thes.bncf.firenze.sbn.it/termine.php?id=16240">Movimento studentesco</term>
+    
+  </keywords>
+       
+      </textClass>
+      <settingDesc>
+        <place ref="https://www.geonames.org/3181928/bologna.html">
+          <placeName>Bologna</placeName>
+        </place>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+
+  <text>
+    <body>
+      <pb facs="DOC_017_studenti_medi.jpg" n="1"/>
+
+      <div type="flyer" xml:lang="it">
+
+        
+        <head rend="black bold underline">
+          <lb/>STUDENTI MEDI!
+        </head>
+
+        <p rend="black">
+          <lb/>La situazione di disagio in cui da tempo ci troviamo a causa dell'au-
+          <lb/>toritarismo, delle strutture arretrate ed inadeguate della scuola, e del
+          <lb/>conseguente soffocamento della libera formazione dell'individuo ha ge-
+          <lb/>nerato una forte reazione a catena della massa studentesca, che si è
+          <lb/>tramutata in impegno di lotta.
+        </p>
+
+        <p rend="black">
+          <lb/>Dopo manifestazioni in altre città d'Italia, anche gli studenti di <placeName>Bo-
+          <lb/>logna</placeName> si sono impegnati nell'azione pratica per modificare la situazio-
+          <lb/>ne esistente: <date when="1968-03-09">Sabato 9 marzo</date> gli studenti del liceo <orgName type="institution">"E. Fermi"</orgName> hanno oc-
+          <lb/>cupato la loro scuola, come già hanno fatto a <placeName>Milano</placeName> i nostri colleghi
+          <lb/>del <orgName type="institution">"Berchet"</orgName>, <orgName type="institution">"Parini"</orgName>, <orgName type="institution">"Einstein"</orgName>, <orgName type="institution">"Feltrinelli"</orgName>, <orgName type="institution">"Volta"</orgName>, <orgName type="institution">"Carducci"</orgName>,
+          <lb/>e a <placeName>Torino</placeName> quelli del liceo <orgName type="institution">"D'Azeglio"</orgName>.
+        </p>
+
+
+        <p rend="black">
+          <lb/>L'azione degli <rs type="social_group">studenti</rs> ha dimostrato non solo la ferma volontà di
+          <lb/>un'alternativa, ma tramite le esperienze svolte hanno verificato la pos-
+          <lb/>sibilità di procedere ad una nuova didattica, che è frutto di un'elabo-
+          <lb/>razione, non individuale e conservatrice, ma comune: la quale tramite
+          <lb/>il libero e franco confronto delle diverse posizioni permette all'indi-
+          <lb/>viduo di recepire in modo critico gli elementi della sua formazione.
+        </p>
+
+        <p rend="black bold uppercase">
+          <lb/>IN QUESTO MODO SI E' DIMOSTRATO IN PRATICA CHE E' POSSIBILE PROCE-
+          <lb/>DERE ALLA PROPRIA FORMAZIONE SENZA DELEGARNE AD ALTRI IL MONOPOLIO.
+        </p>
+
+        <p rend="black">
+          <lb/>La nostra risposta deve essere la ferma presa di coscienza da parte
+          <lb/>di tutti noi, che, superando ogni corporativismo studentesco, da una
+          <lb/>parte sfoci in proposte alternative all'attuale struttura della <orgName type="institution">scuola</orgName>,
+          <lb/>dall'altra dimostri che gli <rs type="social_group">studenti</rs> non sono un trascurabile fenome-
+          <lb/>no scolastico, ma sono coi <rs type="social_group">professori</rs>il corpo e la vita stessa della
+          <lb/><orgName type="institution">scuola</orgName>.
+        </p>
+
+        <p rend="black">
+          <lb/>Occorre, insomma, che la voce degli <rs type="social_group">studenti</rs> non sia tollerata, ma
+          <lb/>possa avere una forte incidenza sulla vita di quella istituzione che
+          <lb/>li accoglie
+        </p>
+
+      
+        <p rend="black">
+          <lb/>Un gruppo di studenti medi
+        </p>
+
+        <p rend="black">
+          <lb/><placeName>Bo</placeName> lì <date when="1968-03-10">10/marzo/1968</date> - Stampato in <placeName>via Irnerio 46</placeName>
+        </p>
+
+        <!-- Linea di separazione visiva sul ciclostilato -->
+        <milestone unit="line"/>
+
+       
+        <p rend="black bold uppercase">
+          <lb/>TUTTI GLI <rs type="social_group">STUDENTI MEDI</rs>
+          <lb/>sono invitati all'ASSEMBLEA GENERALE DEGLI
+          <lb/>STUDENTI MEDI, che si terrà <date when="1968-03-11">LUNEDI'</date> ore <time when="15:00">15</time> presso la <orgName type="institution">facoltà di Lettere
+          <lb/>e Filosofia</orgName> di <placeName>via Zamboni 29</placeName>, per discutere sulla SITUAZIONE DELLA
+          <lb/><orgName type="institution">SCUOLA</orgName> e SULLA LOTTA DEL <orgName type="movement">MOVIMENTO STUDENTESCO</orgName>
+        </p>
+
+      </div>
+    </body>
+  </text>
+</TEI>
