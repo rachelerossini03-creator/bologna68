@@ -37,7 +37,7 @@ if (heroImage) {
 
 const campoRicerca = document.getElementById("searchInput");
 
-// Il blocco viene eseguito SOLO se ci troviamo nella pagina con il catalogo
+
 if (campoRicerca) {
   const filtroTipo = document.getElementById("filterType");
   const filtroData = document.getElementById("filterDate");
