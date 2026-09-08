@@ -7,7 +7,6 @@
     <dcterms:identifier>DOC_001</dcterms:identifier>
     <dcterms:title>La camiceria Pancaldi occupata dalle lavoratrici</dcterms:title>
     <dcterms:creator>Enrico Pasquali</dcterms:creator>
-    
     <dcterms:type>StillImage</dcterms:type>
     <dcterms:format>Fotografia</dcterms:format>
     <dcterms:subject>Movimento operaio</dcterms:subject>
@@ -26,7 +25,6 @@
     <dcterms:identifier>DOC_002</dcterms:identifier>
     <dcterms:title>Assemblea di studenti in via Zamboni</dcterms:title>
     <dcterms:creator>Luciano Nicolini</dcterms:creator>
-    
     <dcterms:type>StillImage</dcterms:type>
     <dcterms:format>Fotografia</dcterms:format>
     <dcterms:subject>Movimento studentesco</dcterms:subject>
@@ -36,8 +34,8 @@
     <dcterms:date>1968-03-07</dcterms:date>
     <dcterms:spatial>Bologna, Via L. Zamboni 33</dcterms:spatial>
     <dcterms:spatial xsi:type="dcterms:URI">https://www.geonames.org/3181928/bologna.html</dcterms:spatial>
-    <dcterms:provenance><dcterms:provenance>Archivio Storico dell'Università di Bologna (Raccolta Luciano Nicolini)</dcterms:provenance>
-    <dcterms:provenance xsi:type="dcterms:URI">http://viaf.org/viaf/130383763</dcterms:provenance></dcterms:provenance>
+    <dcterms:provenance>Archivio Storico dell'Università di Bologna (Raccolta Luciano Nicolini)</dcterms:provenance>
+    <dcterms:provenance xsi:type="dcterms:URI">http://viaf.org/viaf/130383763</dcterms:provenance>
     <dcterms:description>Scatto di Luciano Nicolini risalente al 7 marzo 1968 che ritrae Via Zamboni a Bologna, di fronte a Palazzo Poggi, gremita di studenti in occasione di un'assemblea del movimento studentesco universitario. Il 7 marzo oltre mille studenti manifestano in via Zamboni. Nelle assemblee emergono temi politici, quali i diritti delle donne, la non neutralità della scienza, l’opposizione alla guerra del Vietnam.</dcterms:description>
   </item>
 
@@ -45,7 +43,6 @@
     <dcterms:identifier>DOC_003</dcterms:identifier>
     <dcterms:title>La marcia per la pace in Vietnam di Danilo Dolci da Modena a Bologna</dcterms:title>
     <dcterms:creator>Luciano Nadalini</dcterms:creator>
-    
     <dcterms:type>StillImage</dcterms:type>
     <dcterms:format>Fotografia</dcterms:format>
     <dcterms:subject>Internazionalismo</dcterms:subject>
@@ -69,7 +66,6 @@
     <dcterms:identifier>DOC_004</dcterms:identifier>
     <dcterms:title>L'occupazione dell'Istituto di fisica "A. Righi"</dcterms:title>
     <dcterms:creator>Luciano Nicolini</dcterms:creator>
-    
     <dcterms:type>StillImage</dcterms:type>
     <dcterms:format>Fotografia</dcterms:format>
     <dcterms:subject>Movimento studentesco</dcterms:subject>
@@ -78,9 +74,8 @@
     <dcterms:date>1968-02</dcterms:date>
     <dcterms:spatial>Bologna, via Irnerio 46</dcterms:spatial>
     <dcterms:spatial xsi:type="dcterms:URI">https://www.geonames.org/3181928/bologna.html</dcterms:spatial>
-    <dcterms:provenance><dcterms:provenance>Archivio Storico dell'Università di Bologna (Raccolta Luciano Nicolini)</dcterms:provenance>
-    <dcterms:provenance xsi:type="dcterms:URI">http://viaf.org/viaf/130383763</dcterms:provenance></dcterms:provenance>
-    
+    <dcterms:provenance>Archivio Storico dell'Università di Bologna (Raccolta Luciano Nicolini)</dcterms:provenance>
+    <dcterms:provenance xsi:type="dcterms:URI">http://viaf.org/viaf/130383763</dcterms:provenance>
     <dcterms:description>Fotografia di Luciano Nicolini scattata nel febbraio 1968 in Via Irnerio 46 a Bologna, che documenta la protesta e l'occupazione dell'Istituto di Fisica "A. Righi" da parte degli studenti a partire dal 14 febbraio. L'agitazione a Fisica continuerà fino all'inizio di maggio, provocando tra l'altro le dimissioni del rettore Felice Battaglia.</dcterms:description>
   </item>
 
@@ -88,11 +83,10 @@
     <dcterms:identifier>DOC_005</dcterms:identifier>
     <dcterms:title>Manifestazione operai-studenti</dcterms:title>
     <dcterms:creator>Luciano Nadalini</dcterms:creator>
-    
     <dcterms:type>StillImage</dcterms:type>
     <dcterms:format>Fotografia</dcterms:format>
     <dcterms:subject>Movimento operaio</dcterms:subject>
-     <dcterms:subject xsi:type="dcterms:URI">https://thes.bncf.firenze.sbn.it/termine.php?id=18092</dcterms:subject>
+    <dcterms:subject xsi:type="dcterms:URI">https://thes.bncf.firenze.sbn.it/termine.php?id=18092</dcterms:subject>
     <dcterms:subject>Unione operai-studenti</dcterms:subject>
     <dcterms:subject>Manifestazione</dcterms:subject>
     <dcterms:date>1968-04-28</dcterms:date>
@@ -106,7 +100,6 @@
     <dcterms:identifier>DOC_006</dcterms:identifier>
     <dcterms:title>Manifestazione contro l'attentato a Rudi Dutschke</dcterms:title>
     <dcterms:creator>Luciano Nicolini</dcterms:creator>
-    
     <dcterms:type>StillImage</dcterms:type>
     <dcterms:format>Fotografia</dcterms:format>
     <dcterms:subject>Movimento studentesco</dcterms:subject>
@@ -116,8 +109,8 @@
     <dcterms:date>1968-04-12</dcterms:date>
     <dcterms:spatial>Bologna, via F. Rizzoli</dcterms:spatial>
     <dcterms:spatial xsi:type="dcterms:URI">https://www.geonames.org/3181928/bologna.html</dcterms:spatial>
-    <dcterms:provenance><dcterms:provenance>Archivio Storico dell'Università di Bologna (Raccolta Luciano Nicolini)</dcterms:provenance>
-    <dcterms:provenance xsi:type="dcterms:URI">http://viaf.org/viaf/130383763</dcterms:provenance></dcterms:provenance>
+    <dcterms:provenance>Archivio Storico dell'Università di Bologna (Raccolta Luciano Nicolini)</dcterms:provenance>
+    <dcterms:provenance xsi:type="dcterms:URI">http://viaf.org/viaf/130383763</dcterms:provenance>
     <dcterms:description>Scatto di Luciano Nicolini del 12 aprile 1968 in Via F. Rizzoli a Bologna, che ritrae la manifestazione degli studenti del movimento studentesco in protesta a seguito dell'attentato al leader studentesco tedesco Rudi Dutschke.</dcterms:description>
   </item>
 
@@ -125,7 +118,6 @@
     <dcterms:identifier>DOC_007</dcterms:identifier>
     <dcterms:title>Sartre Parla all'Università di Bologna</dcterms:title>
     <dcterms:creator>Luciano Nicolini</dcterms:creator>
-    
     <dcterms:type>StillImage</dcterms:type>
     <dcterms:format>Fotografia</dcterms:format>
     <dcterms:subject>Università</dcterms:subject>
@@ -142,8 +134,8 @@
     <dcterms:date>1968-07-23</dcterms:date>
     <dcterms:spatial>Bologna, Viale C. Berti Pichat 5</dcterms:spatial>
     <dcterms:spatial xsi:type="dcterms:URI">https://www.geonames.org/3181928/bologna.html</dcterms:spatial>
-    <dcterms:provenance><dcterms:provenance>Archivio Storico dell'Università di Bologna (Raccolta Luciano Nicolini)</dcterms:provenance>
-    <dcterms:provenance xsi:type="dcterms:URI">http://viaf.org/viaf/130383763</dcterms:provenance></dcterms:provenance>
+    <dcterms:provenance>Archivio Storico dell'Università di Bologna (Raccolta Luciano Nicolini)</dcterms:provenance>
+    <dcterms:provenance xsi:type="dcterms:URI">http://viaf.org/viaf/130383763</dcterms:provenance>
     <dcterms:description>Il filosofo francese Jean Paul Sartre (1905-1980) interviene ad un'assemblea studentesca nell'aula magna dell'istituto di Psicologia occupato. Per impedire che l'incontro diventi un evento mondano, gli studenti vietano l'accesso a giornalisti e curiosi.</dcterms:description>
   </item>
 
@@ -165,8 +157,8 @@
     <dcterms:date>1967-05-21</dcterms:date>
     <dcterms:spatial>Bologna, Via Beniamino Andreatta 3</dcterms:spatial>
     <dcterms:spatial xsi:type="dcterms:URI">https://www.geonames.org/3181928/bologna.html</dcterms:spatial>
-    <dcterms:provenance><dcterms:provenance>Archivio Storico dell'Università di Bologna (Raccolta Luciano Nicolini)</dcterms:provenance>
-    <dcterms:provenance xsi:type="dcterms:URI">http://viaf.org/viaf/130383763</dcterms:provenance></dcterms:provenance>
+    <dcterms:provenance>Archivio Storico dell'Università di Bologna (Raccolta Luciano Nicolini)</dcterms:provenance>
+    <dcterms:provenance xsi:type="dcterms:URI">http://viaf.org/viaf/130383763</dcterms:provenance>
     <dcterms:description>Nel corso di una manifestazione di solidarietà per il Vietnam, un grande corteo di studenti si snoda per il centro cittadino e nella zona universitaria. Un gruppo, che ha manifestato scandendo slogan e con un breve sit-in davanti all'Università americana “Johns Hopkins”, viene in seguito caricato duramente dalla polizia.</dcterms:description>
   </item>
 
@@ -215,7 +207,6 @@
     <dcterms:identifier>DOC_011</dcterms:identifier>
     <dcterms:title>Manifesto Giornata nazionale per la pace in Biafra</dcterms:title>
     <dcterms:creator>Comitato Nazionale per la pace in Biafra</dcterms:creator>
-    
     <dcterms:type>Text</dcterms:type>
     <dcterms:format>Manifesto</dcterms:format>
     <dcterms:subject>Internazionalismo</dcterms:subject>
@@ -227,7 +218,7 @@
     <dcterms:date>1968-12-15</dcterms:date>
     <dcterms:spatial>Bologna, Piazza Maggiore e Sala Farnese (Palazzo d'Accursio)</dcterms:spatial>
     <dcterms:spatial xsi:type="dcterms:URI">https://www.geonames.org/7670502/piazza-maggiore.html</dcterms:spatial>
-    <dcterms:provenance><dcterms:provenance>Fondazione Gramsci Emilia-Romagna</dcterms:provenance>
+    <dcterms:provenance>Fondazione Gramsci Emilia-Romagna</dcterms:provenance>
     <dcterms:provenance xsi:type="dcterms:URI">https://viaf.org/en/viaf/169435623</dcterms:provenance>
     <dcterms:description>Manifesto che annuncia una manifestazione e successivo dibattito per la situazione del Biafra</dcterms:description>
   </item>
@@ -266,7 +257,7 @@
     <dcterms:date>1969-03-25</dcterms:date>
     <dcterms:spatial>Casalecchio di Reno (BO)</dcterms:spatial>
     <dcterms:spatial xsi:type="dcterms:URI">https://www.geonames.org/3180224/casalecchio-di-reno.html</dcterms:spatial>
-    <dcterms:provenance><dcterms:provenance>Fondazione Gramsci Emilia-Romagna</dcterms:provenance>
+    <dcterms:provenance>Fondazione Gramsci Emilia-Romagna</dcterms:provenance>
     <dcterms:provenance xsi:type="dcterms:URI">https://viaf.org/en/viaf/169435623</dcterms:provenance>
     <dcterms:description>Manifesto a stampa che annuncia un dibattito pubblico sul tema "La salute pubblica come problema sociale. La lotta contro l'istituzione psichiatrica autoritaria", tenutosi martedì 25 marzo 1969 presso la Sala Parrocchiale di Casalecchio di Reno.</dcterms:description>
   </item>
@@ -285,7 +276,7 @@
     <dcterms:date>1968</dcterms:date>
     <dcterms:spatial>Bologna</dcterms:spatial>
     <dcterms:spatial xsi:type="dcterms:URI">https://www.geonames.org/3181928/bologna.html</dcterms:spatial>
-    <dcterms:provenance><dcterms:provenance>Fondazione Gramsci Emilia-Romagna</dcterms:provenance>
+    <dcterms:provenance>Fondazione Gramsci Emilia-Romagna</dcterms:provenance>
     <dcterms:provenance xsi:type="dcterms:URI">https://viaf.org/en/viaf/169435623</dcterms:provenance>
     <dcterms:description>Manifesto con un'imponente illustrazione in nero. L'immagine raffigura la sagoma minacciosa e imponente di un poliziotto in tenuta antisommossa, armato di manganello, che sovrasta la figura stilizzata e inerme di uno studente che tiene dei libri in mano.</dcterms:description>
   </item>
@@ -330,7 +321,7 @@
     <dcterms:date>1968</dcterms:date>
     <dcterms:spatial>Bologna</dcterms:spatial>
     <dcterms:spatial xsi:type="dcterms:URI">https://www.geonames.org/3181928/bologna.html</dcterms:spatial>
-    <dcterms:provenance><dcterms:provenance>Fondazione Gramsci Emilia-Romagna</dcterms:provenance>
+    <dcterms:provenance>Fondazione Gramsci Emilia-Romagna</dcterms:provenance>
     <dcterms:provenance xsi:type="dcterms:URI">https://viaf.org/en/viaf/169435623</dcterms:provenance>
     <dcterms:description>Il manifesto mobilita la protesta dei democratici bolognesi contro la condanna a morte del patriota greco Alexandros Panagoulis da parte del regime dei colonnelli ad Atene, chiedendo la fine delle torture, del sangue e la liberazione della Grecia.</dcterms:description>
   </item>
@@ -339,7 +330,6 @@
     <dcterms:identifier>DOC_017</dcterms:identifier>
     <dcterms:title>Studenti Medi!</dcterms:title>
     <dcterms:creator>Un gruppo di studenti medi</dcterms:creator>
-    
     <dcterms:type>Text</dcterms:type>
     <dcterms:format>Volantino ciclostilato</dcterms:format>
     <dcterms:subject>Movimento studentesco</dcterms:subject>
@@ -349,7 +339,7 @@
     <dcterms:date>1968-03-10</dcterms:date>
     <dcterms:spatial>Bologna</dcterms:spatial>
     <dcterms:spatial xsi:type="dcterms:URI">https://www.geonames.org/3181928/bologna.html</dcterms:spatial>
-    <dcterms:provenance><dcterms:provenance>Fondazione Gramsci Emilia-Romagna</dcterms:provenance>
+    <dcterms:provenance>Fondazione Gramsci Emilia-Romagna</dcterms:provenance>
     <dcterms:provenance xsi:type="dcterms:URI">https://viaf.org/en/viaf/169435623</dcterms:provenance>
     <dcterms:description>Volantino di propaganda studentesca a firma di "Un gruppo di studenti medi". Il documento denuncia l'autoritarismo e l'inadeguatezza della scuola, cita le recenti occupazioni dei licei bolognesi (Fermi) e nazionali (Berchet, Parini, Einstein, Feltrinelli, Volta, Carducci, D'Azeglio) e convoca un'assemblea generale degli studenti medi presso la Facoltà di Lettere e Filosofia di via Zamboni 29</dcterms:description>
   </item>
@@ -358,11 +348,10 @@
     <dcterms:identifier>DOC_018</dcterms:identifier>
     <dcterms:title>Sciopero commessi dell'OMNIA, UPIM, STANDA</dcterms:title>
     <dcterms:creator>Comitato di base studenti-operai dell'OMNIA</dcterms:creator>
-    
     <dcterms:type>Text</dcterms:type>
     <dcterms:format>Volantino ciclostilato</dcterms:format>
     <dcterms:subject>Movimento operaio</dcterms:subject>
-     <dcterms:subject xsi:type="dcterms:URI">https://thes.bncf.firenze.sbn.it/termine.php?id=18092</dcterms:subject>
+    <dcterms:subject xsi:type="dcterms:URI">https://thes.bncf.firenze.sbn.it/termine.php?id=18092</dcterms:subject>
     <dcterms:subject>Unione operai-studenti</dcterms:subject>
     <dcterms:subject>Società dei consumi</dcterms:subject>
     <dcterms:subject>Sciopero</dcterms:subject>
@@ -378,7 +367,6 @@
     <dcterms:identifier>DOC_019</dcterms:identifier>
     <dcterms:title>Continua l'occupazione all'ITIS Saragozza 9</dcterms:title>
     <dcterms:creator>Studenti dell'ITIS Odone Belluzzi</dcterms:creator>
-    
     <dcterms:type>Text</dcterms:type>
     <dcterms:format>Volantino ciclostilato</dcterms:format>
     <dcterms:subject>Movimento studentesco</dcterms:subject>
@@ -387,7 +375,7 @@
     <dcterms:subject>Occupazione</dcterms:subject>
     <dcterms:spatial>Bologna, ITIS Odone Belluzzi Via Saragozza 9</dcterms:spatial>
     <dcterms:spatial xsi:type="dcterms:URI">https://www.geonames.org/3181928/bologna.html</dcterms:spatial>
-    <dcterms:provenance><dcterms:provenance>Fondazione Gramsci Emilia-Romagna</dcterms:provenance>
+    <dcterms:provenance>Fondazione Gramsci Emilia-Romagna</dcterms:provenance>
     <dcterms:provenance xsi:type="dcterms:URI">https://viaf.org/en/viaf/169435623</dcterms:provenance>
     <dcterms:description>Volantino agitatorio dattiloscritto dagli studenti dell'ITIS Odone Belluzzi di Bologna, relativo all'occupazione della sede di via Saragozza 9. Il documento denuncia le cariche e la repressione della polizia avvenute l'8 novembre 1968, rende note le rivendicazioni scolastiche e assembleari respinte dalle autorità e lances un appello alla popolazione e alla città per sostenere uniti la lotta studentesca</dcterms:description>
   </item>
@@ -411,7 +399,7 @@
     <dcterms:date>1968</dcterms:date>
     <dcterms:spatial>Bologna</dcterms:spatial>
     <dcterms:spatial xsi:type="dcterms:URI">https://www.geonames.org/3181928/bologna.html</dcterms:spatial>
-    <dcterms:provenance><dcterms:provenance>Fondazione Gramsci Emilia-Romagna</dcterms:provenance>
+    <dcterms:provenance>Fondazione Gramsci Emilia-Romagna</dcterms:provenance>
     <dcterms:provenance xsi:type="dcterms:URI">https://viaf.org/en/viaf/169435623</dcterms:provenance>
     <dcterms:description>Manifesto politico in solidarietà con la gioventù e gli studenti messicani in seguito al massacro di Tlatelolco a Città del Messico. Il testo esprime condanna e sdegno verso la repressione armata statale, inserendo la protesta nel quadro delle lotte antimperialiste in America Latina e invitando tutte le forze democratiche, laiche e cattoliche a intensificare la mobilitazione per la pace, la libertà e la giustizia.</dcterms:description>
   </item>
