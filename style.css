@@ -466,7 +466,6 @@ main.container iframe {
 
 .scheda-image img {
   width: 95%;
-  border-radius: 20px;
   box-shadow: 0 4px 18px rgba(0,0,0,0.1);
   position: sticky;    
   top: 100px;
